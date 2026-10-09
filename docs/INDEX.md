@@ -1,10 +1,10 @@
 # Mục lục hồ sơ VTV8Online
 
-**Trạng thái:** Tài liệu làm việc. **Riêng danh mục 8 hạng mục GĐ0 đã được thống nhất nội bộ ngày 09/10/2026**; chi tiết từng module và các giai đoạn còn lại chưa được VTV8 phê duyệt.
+**Trạng thái:** Danh sách GĐ0 đã được chốt nội bộ ở cấp 8 module, 33 công việc khảo sát/thiết kế; chưa phê duyệt bởi VTV8, chưa ước tính effort. GĐ1–GĐ4 là danh mục dự thảo.
 
 | Giai đoạn | Tên | Danh mục | Trạng thái |
 |---|---|---|---|
-| GĐ0 | Khảo sát, BA, thiết kế | [Toàn bộ phân tích GĐ0](00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md) · [Danh mục 8 module](00-gd0-khao-sat-thiet-ke/README.md) | Module đã chốt; công việc G0-02–G0-08 DRAFT để rà soát |
+| GĐ0 | Khảo sát, BA, thiết kế | [33 công việc đã chốt](00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md) · [8 module](00-gd0-khao-sat-thiet-ke/README.md) | Danh mục chốt nội bộ; chưa tính effort |
 | GĐ1 | VTV8Online V1 | [GĐ1](01-gd1-vtv8online-v1/README.md) | DRAFT |
 | GĐ2 | Media Platform | [GĐ2](02-gd2-media-platform/README.md) | DRAFT |
 | GĐ3 | Content Commerce | [GĐ3](03-gd3-content-commerce/README.md) | DRAFT |
@@ -26,7 +26,7 @@
 5. Riêng GĐ0 là dịch vụ khảo sát/thiết kế: dùng đầu ra và khối lượng tư vấn làm căn cứ dự toán, không suy luận chi phí từ FE/BE bằng 0.
 
 ## Thứ tự
-- Hiện tại: đã lập [bản tổng hợp phân tích nghiệp vụ **toàn GĐ0**](00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md); chốt 8 module + danh mục 11 công việc G0-01, danh mục G0-02–G0-08 là DRAFT chờ rà soát chung; chưa ước tính effort.
+- Hiện tại: GĐ0 đã chốt nội bộ **8 module và 33 công việc**; danh sách 81 mục trước đó được thay thế, không còn là danh mục báo giá hiện hành.
 - Sau đó: lần lượt chốt module, đặc tả tính năng và ước tính GĐ1, GĐ2, GĐ3, GĐ4.
 
 **Chú ý:** Thời lượng trong tài liệu nguồn là dự kiến. Chưa chốt đơn giá, thời hạn, khối lượng hay ngân sách thực hiện.

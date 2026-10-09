@@ -11,6 +11,8 @@
 - Tính năng/use case: `G1-02-F001`, `G1-02-F002`; API và trường dữ liệu là chi tiết bên dưới use case.
 - Quyết định kiến trúc: `ADR-0001`, `ADR-0002`.
 
+- **GĐ0:** ID `G0-01-F001` là **công việc khảo sát/thiết kế**, không phải tính năng code. Danh sách hiện hành gồm 33 công việc thuộc 8 module; mã bản 81 việc trước không còn dùng để lập dự toán hiện hành.
+
 ## 3. Nguồn gốc & trạng thái
 - `SOURCE`: có căn cứ trong tài liệu **Đề xuất phương án hợp tác ... VTV8Online**, ghi phần/trang hoặc đoạn.
 - `PROPOSED`: phân rã/phân tích do nhóm đề xuất để thực hiện yêu cầu.

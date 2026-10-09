@@ -1,43 +1,35 @@
 # GĐ0 – Khảo sát và thiết kế tổng thể
 
-> **8 module đã chốt nội bộ ngày 09/10/2026.** Danh mục công việc **G0-01 đã chốt (11 mục)**; G0-02 đến G0-08 đã được **phân tích đầy đủ ở mức danh mục công việc và đầu ra để rà soát đồng bộ**, chưa được phê duyệt từng hạng mục bởi VTV8. **Chưa ước tính giờ/giá.**
+> **Đã chốt nội bộ: 8 module, 33 công việc (09/10/2026).** Chưa có nghiệm thu từ VTV8, chưa thực hiện khảo sát thực tế và chưa ước tính effort/giá.
 
-## Đọc toàn bộ GĐ0 trước
+**[Xem bản tổng hợp 33 công việc GĐ0](G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md)**
 
-**[BẢN TỔNG HỢP PHÂN TÍCH NGHIỆP VỤ GĐ0](G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md)** – chứa đủ danh sách công việc Fxxx của **8 module**, nội dung khảo sát, đầu ra, ranh giới, phụ thuộc, giả định và cơ sở phục vụ báo giá; không cần duyệt từng module tuần tự mới xem được toàn bộ.
+## Module hiện hành
 
-- **Thời lượng trong nguồn:** 2–4 tuần dự kiến, chưa được thẩm định theo khối lượng khảo sát.
-- **Bản chất GĐ0:** khảo sát/thiết kế/đề xuất giải pháp, không phải phát triển tính năng phần mềm.
-- **Mức phê duyệt:** mới là hồ sơ phân tích nội bộ, không phải biên bản xác nhận yêu cầu từ VTV8.
-
-## Danh sách module
-
-| Module | Hạng mục | Công việc Fxxx | Trạng thái danh mục |
+| Mã | Module | Công việc | Tài liệu |
 |---|---|---:|---|
-| G0-01 | [Khảo sát nghiệp vụ và xác định phạm vi sản phẩm](G0-01-khao-sat-nghiep-vu-va-pham-vi-san-pham.md) | 11 | Chốt nội bộ |
-| G0-02 | [Khảo sát hiện trạng hệ thống và tài sản số](G0-02-khao-sat-hien-trang-he-thong-va-tai-san-so.md) | 10 | DRAFT – chờ rà soát tổng thể |
-| G0-03 | [Phân tích bản quyền, giấy phép và điều kiện khai thác](G0-03-ban-quyen-giay-phep-dieu-kien-khai-thac.md) | 9 | DRAFT – chờ rà soát tổng thể |
-| G0-04 | [Thiết kế trải nghiệm và cấu trúc thông tin](G0-04-ux-ui-va-cau-truc-thong-tin.md) | 10 | DRAFT – chờ rà soát tổng thể |
-| G0-05 | [Thiết kế kiến trúc nền tảng, dữ liệu và bảo mật](G0-05-kien-truc-nen-tang-du-lieu-va-bao-mat.md) | 10 | DRAFT – chờ rà soát tổng thể |
-| G0-06 | [Đánh giá và thiết kế giải pháp Video/Livestream](G0-06-video-livestream.md) | 10 | DRAFT – chờ rà soát tổng thể |
-| G0-07 | [Phân tích và thiết kế phương án chuyển đổi dữ liệu](G0-07-phuong-an-chuyen-doi-du-lieu.md) | 10 | DRAFT – chờ rà soát tổng thể |
-| G0-08 | [Xây dựng hồ sơ triển khai, nghiệm thu và dự toán](G0-08-ho-so-trien-khai-nghiem-thu-va-du-toan.md) | 11 | DRAFT – chờ rà soát tổng thể |
+| G0-01 | Khảo sát nghiệp vụ và nhu cầu xây dựng VTV8Online | 7 | [G0-01](G0-01-khao-sat-nghiep-vu-va-pham-vi-san-pham.md) |
+| G0-02 | Khảo sát website, hệ thống và tài sản số hiện tại | 6 | [G0-02](G0-02-khao-sat-hien-trang-he-thong-va-tai-san-so.md) |
+| G0-03 | Khảo sát bản quyền và điều kiện khai thác nội dung | 3 | [G0-03](G0-03-ban-quyen-giay-phep-dieu-kien-khai-thac.md) |
+| G0-04 | Xây dựng cấu trúc nội dung và thiết kế giao diện sơ bộ | 3 | [G0-04](G0-04-ux-ui-va-cau-truc-thong-tin.md) |
+| G0-05 | Đề xuất kiến trúc hệ thống tổng thể | 4 | [G0-05](G0-05-kien-truc-nen-tang-du-lieu-va-bao-mat.md) |
+| G0-06 | Khảo sát và lựa chọn phương án Video/Livestream | 4 | [G0-06](G0-06-video-livestream.md) |
+| G0-07 | Khảo sát và lập phương án chuyển đổi dữ liệu | 3 | [G0-07](G0-07-phuong-an-chuyen-doi-du-lieu.md) |
+| G0-08 | Tổng hợp phạm vi và kế hoạch triển khai | 3 | [G0-08](G0-08-ho-so-trien-khai-nghiem-thu-va-du-toan.md) |
+| **Tổng** | **8 module** | **33** | |
 
-**Tổng:** 81 công việc khảo sát/thiết kế/chuẩn bị; không phải 81 tính năng code hoặc tài liệu bàn giao độc lập.
+## Phạm vi và ranh giới
 
-## Đầu ra và điều kiện hoàn thành
+- GĐ0 theo đề xuất VTV8 dự kiến 2–4 tuần: khảo sát nghiệp vụ, hệ thống/tài sản số và bản quyền; taxonomy, UX/UI; kiến trúc tổng thể, video/live/CDN và kế hoạch migration.
+- Một công việc mã Fxxx là đầu việc khảo sát/thiết kế; không phải tính năng code. Checklist chi tiết nằm trong trang module.
+- Không mặc định triển khai phần mềm, chạy migration, hoàn thiện UI hay kiểm thử tải 120.000 CCU thực tế ở GĐ0.
+- Thống nhất **danh sách công việc** khác với xác nhận **kết quả khảo sát thực tế**. Các giả định phải tiếp tục kiểm chứng.
+- Chưa có giờ FE/BE/MD hoặc giá. Không ép chi phí khảo sát GĐ0 vào công thức tỷ trọng giờ coding dùng cho GĐ1–GĐ4.
 
-Kết quả GĐ0 là bộ hồ sơ BRD, AS-IS/TO-BE, Inventory, Rights Matrix, taxonomy/UX, Architecture, phương án Video/Live, Migration và WBS/dự toán. **Hoàn thành khảo sát** cần có bằng chứng thực tế/đầu vào từ đơn vị sở hữu và vòng rà soát, khác với việc **hoàn thành soạn danh mục công việc**.
+## Phiên bản cũ
 
-## Ranh giới với báo giá phát triển
+Danh sách **81 mục trước đây đã được thay thế**, gồm cả 11 mục G0-01 trước đó. [Xem commit lưu lịch sử bản 81 mục](https://github.com/onesphere-tms/vtv8-online-nghiep-vu/tree/0c3e7813a2addacb71ec57321fdd0fad7daf83c3/docs/00-gd0-khao-sat-thiet-ke).
 
-- Chưa ước tính FE/BE hoặc BA/Design/QA.
-- Các tính năng code ở các giai đoạn sau ước tính theo giờ **một Middle Developer FE/BE**; các cột BA/Design/QA là công thức Excel.
-- GĐ0 có khối lượng chuyên môn khảo sát/thiết kế riêng, cần tránh tính lại phần đã bàn giao vào Design/BA GĐ1.
-- Mục tiêu 120.000 CCU, giá CDN, bản quyền và khả năng kế thừa hạ tầng đối tác là yêu cầu **cần kiểm chứng**, không phải kết quả đã xác nhận.
+## Tài liệu nguồn
 
-## Nhật ký
-
-- 09/10/2026: chốt cấu trúc 8 module.
-- 09/10/2026: chốt G0-01 gồm 11 hạng mục.
-- 09/10/2026: phân tích đồng bộ danh mục G0-02–G0-08; gộp bản trình bày toàn GĐ0.
+[Đề xuất hợp tác VTV8–IIEL](../../tai-lieu-nguon/Đề%20xuất%20hợp%20tác%20VTV8%20-%20IIEL_VTV8%20note.docx).

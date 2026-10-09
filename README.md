@@ -37,7 +37,7 @@ bao-gia/                          WBS, giả định và cấu trúc ước tín
 
 ## Tình trạng hiện tại
 
-Đã khởi tạo khung tài liệu và danh mục dự kiến để tiếp tục phân tích. Chưa lập báo giá chính thức; chưa có phê duyệt phạm vi từ VTV8.
+Đã chốt nội bộ danh mục **8 module và 33 công việc khảo sát/thiết kế tổng thể GĐ0**, xem [bản tổng hợp GĐ0](docs/00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md). Chưa lập báo giá chính thức; chưa có phê duyệt phạm vi từ VTV8.
 
 ## Tài liệu gốc người dùng cung cấp (09/10/2026)
 
