@@ -39,14 +39,11 @@ bao-gia/                          WBS, giả định và cấu trúc ước tín
 
 Đã khởi tạo khung tài liệu và danh mục dự kiến để tiếp tục phân tích. Chưa lập báo giá chính thức; chưa có phê duyệt phạm vi từ VTV8.
 
-## Tài liệu người dùng đã cung cấp (09/10/2026)
+## Tài liệu gốc người dùng cung cấp (09/10/2026)
 
-- [Bản trích xuất văn bản đề xuất VTV8–IIEL](tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md) — đã lưu dạng Markdown để dễ tìm kiếm/truy vết.
-- [Phân tích cấu trúc Template Báo giá](bao-gia/templates/Template-Bao-gia-Du-an-cau-truc.md) — hướng dẫn sử dụng 6 sheet của Excel và các chỗ cần kiểm tra công thức.
-- **Tệp gốc .docx và .xlsx:** chưa được đưa vào Git; cần [nhập nguyên bản bằng script](scripts/import-original-documents.sh) để bảo toàn kiểu dữ liệu, công thức, định dạng và layout.
+- [Đề xuất hợp tác VTV8 – IIEL (.docx)](tai-lieu-nguon/Đề%20xuất%20hợp%20tác%20VTV8%20-%20IIEL_VTV8%20note.docx) — bản gốc, căn cứ chính cho phân tích nghiệp vụ.
+- [Template Báo giá Dự án (.xlsx)](bao-gia/templates/Template%20Báo%20giá%20Dự%20án.xlsx) — mẫu gốc để lập báo giá.
+- [Trích xuất đề xuất (Markdown)](tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md) — phục vụ tìm kiếm/truy vết, không thay thế tệp gốc.
+- [Phân tích cấu trúc template báo giá](bao-gia/templates/Template-Bao-gia-Du-an-cau-truc.md) — ghi chú để bảo toàn cấu trúc và kiểm tra công thức.
 
-```bash
-bash scripts/import-original-documents.sh "/duong-dan/Template Báo giá Dự án.xlsx" "/duong-dan/Đề xuất hợp tác VTV8 - IIEL_VTV8 note(1).docx"
-```
-
-Sau khi chạy, tệp gốc nằm tại `tai-lieu-nguon/Đề xuất hợp tác VTV8 - IIEL_VTV8 note.docx` và `bao-gia/templates/Template Báo giá Dự án.xlsx`.
+**Quy ước:** Giữ nguyên hai tệp gốc. Khi báo giá VTV8Online, tạo workbook riêng dựa trên mẫu và liên kết từng hạng mục đến mã giai đoạn/module/feature.

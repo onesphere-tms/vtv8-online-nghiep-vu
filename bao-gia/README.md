@@ -38,4 +38,4 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 ## Mẫu Excel do người dùng cung cấp
 
 - [Mô tả cấu trúc và các điểm cần kiểm tra trước khi báo giá](templates/Template-Bao-gia-Du-an-cau-truc.md).
-- Tệp gốc **Template Báo giá Dự án.xlsx** chưa được lưu trên Git do giới hạn tải tệp nhị phân; dùng script ở thư mục `scripts/` để import nguyên bản. Khi lập báo giá, tạo workbook VTV8Online riêng, giữ template làm bản chuẩn.
+- [Tệp gốc **Template Báo giá Dự án.xlsx**](templates/Template%20Báo%20giá%20Dự%20án.xlsx) đã được lưu trên Git. Khi lập báo giá, tạo workbook VTV8Online riêng, giữ template gốc làm bản chuẩn.
