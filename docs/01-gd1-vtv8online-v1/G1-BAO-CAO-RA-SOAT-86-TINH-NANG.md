@@ -1,5 +1,7 @@
 # Báo cáo kiểm tra chất lượng và phạm vi GĐ1 – 86 đầu việc (09/10/2026)
 
+> **HỒ SƠ QA LỊCH SỬ (TRÊN BẢN 86 MÃ TRƯỚC CHỈNH).** Kiến nghị đã được áp dụng vào [danh mục hiện hành 82 tính năng](G1-DANH-MUC-TINH-NANG.md): **72 CORE, 10 OPTION/CONDITIONAL**, 5 mã phi-feature chuyển sang H02 và đã thêm **G1-03-F010 – Quản lý trang tĩnh CMS**. Các cụm 'chưa chỉnh danh mục' phía dưới phản ánh thời điểm lập báo cáo QA, không phải trạng thái hiện tại. Chưa được VTV8 phê duyệt và chưa tính FE/BE.
+
 > **Trạng thái: ĐÃ RÀ SOÁT / KIẾN NGHỊ CHỈNH, CHƯA CHỐT BẢN FEATURE MỚI.**  
 > Căn cứ: [tài liệu đề xuất VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md), phạm vi đã thống nhất loại bỏ mạng xã hội và [86 tính năng hiện hành](G1-DANH-MUC-TINH-NANG.md).  
 > Mục tiêu kiểm tra: đúng nguồn/nhu cầu, đơn vị tính effort, không trùng chủ sở hữu, nghiệm thu được, giới hạn đúng V1 và điều kiện vendor/đầu vào. Không có bằng chứng kết quả khảo sát GĐ0 hay xác nhận mới của VTV8.

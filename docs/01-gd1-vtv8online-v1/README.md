@@ -1,56 +1,44 @@
-# GĐ1 – VTV8Online V1: Module và tính năng (bản phân tích DRAFT)
+# GĐ1 – VTV8Online V1: 11 module và 82 tính năng sau rà soát
 
-> **Ngày cập nhật:** 09/10/2026 · **Cấu trúc được người dùng chọn:** 11 module, 2 nhóm hỗ trợ. Chi tiết **86 tính năng đề xuất** chưa phải yêu cầu/báo giá đã được VTV8 duyệt. 
-> **Thời lượng trong tài liệu nguồn:** 8–12 tuần; chưa khẳng định phù hợp khi chưa ước tính giờ FE/BE và xác minh streaming/migration.
-> **Quyết định phạm vi:** **không tích hợp, không đồng bộ, không quản trị mạng xã hội**; dữ liệu migration chỉ lấy từ hệ thống cũ và kho do VTV8 cung cấp.
+> **09/10/2026 – DRAFT với VTV8**. Danh mục 11 module + 2 nhóm hỗ trợ đã chọn nội bộ; đã áp dụng QA vào mô tả/ranh giới từng tính năng: **82 tính năng (72 CORE, 10 OPTION/CONDITIONAL), 5 công việc phi-feature chuyển WBS**, không bỏ khỏi GĐ1.
+> Tài liệu nguồn dự kiến **8–12 tuần**, chưa được xác nhận khả thi khi chưa có ước tính và phương án media/migration.
+> **Không có tích hợp, đồng bộ hay quản trị mạng xã hội** trong phạm vi phát triển.
 
-## Danh mục 11 module
+## 11 module
 
-| Mã | Module | Tính năng | FE/BE | Phụ thuộc quan trọng |
-|---|---|---:|---|---|
-| G1-01 | [Website VTV8Online](G1-01-website-vtv8online.md) | 9 | FE + BE theo tính năng | Thiết kế giao diện GĐ0 |
-| G1-02 | [Quản trị tài khoản và phân quyền CMS](G1-02-cms-quan-tri.md) | 6 | FE + BE theo tính năng | Vai trò/phòng ban |
-| G1-03 | [Sản xuất, biên tập và xuất bản nội dung](G1-03-bien-tap-xuat-ban.md) | 9 | FE + BE theo tính năng | Quy trình duyệt |
-| G1-04 | [Quản lý danh mục và nội dung có cấu trúc](G1-04-noi-dung-co-cau-truc.md) | 9 | FE + BE theo tính năng | Taxonomy/quan hệ dữ liệu |
-| G1-05 | [Quản lý tài sản số – DAM cơ bản](G1-05-dam-thu-vien-media.md) | 8 | FE + BE theo tính năng | Quyền khai thác media |
-| G1-06 | [Quản lý và phát video VOD cơ bản](G1-06-video-vod.md) | 6 | FE + BE theo tính năng | Nguồn playback và asset |
-| G1-07 | [Livestream và lịch phát sóng](G1-07-livestream-lich-phat.md) | 8 | FE + BE theo tính năng | Kênh phát trực tiếp |
-| G1-08 | [Tích hợp và vận hành nền tảng Streaming](G1-08-streaming-integration.md) | 9 | FE/BE tích hợp + DevOps/vendor riêng | VTVcab/VTVprime, API, SLA, tải |
-| G1-09 | [Báo cáo và thống kê nội dung](G1-09-bao-cao-thong-ke.md) | 6 | FE + BE theo tính năng | Định nghĩa lượt xem và dữ liệu |
-| G1-10 | [Quản lý và tính nhuận bút](G1-10-nhuan-but.md) | 8 | FE + BE theo tính năng | Quy chế nhuận bút |
-| G1-11 | [Chuyển đổi dữ liệu từ hệ thống cũ](G1-11-chuyen-doi-du-lieu.md) | 8 | BE/tool + chạy dữ liệu riêng | Nguồn và khối lượng dữ liệu cũ |
-| **Tổng** | | **86** | | **78 CORE; 8 OPTION/CONDITIONAL** |
+| Mã | Module | Tổng | CORE | Tùy chọn/điều kiện |
+|---|---|---:|---:|---:|
+| [G1-01 – Website VTV8Online](G1-01-website-vtv8online.md) | 9 | 7 | 2 |
+| [G1-02 – Tài khoản và phân quyền CMS](G1-02-cms-quan-tri.md) | 6 | 5 | 1 |
+| [G1-03 – Biên tập và xuất bản](G1-03-bien-tap-xuat-ban.md) | 10 | 8 | 2 |
+| [G1-04 – Nội dung có cấu trúc](G1-04-noi-dung-co-cau-truc.md) | 9 | 9 | 0 |
+| [G1-05 – Thư viện media – DAM](G1-05-dam-thu-vien-media.md) | 8 | 8 | 0 |
+| [G1-06 – Video VOD](G1-06-video-vod.md) | 6 | 6 | 0 |
+| [G1-07 – Livestream và lịch phát](G1-07-livestream-lich-phat.md) | 8 | 8 | 0 |
+| [G1-08 – Tích hợp Streaming](G1-08-streaming-integration.md) | 7 | 5 | 2 |
+| [G1-09 – Báo cáo và thống kê](G1-09-bao-cao-thong-ke.md) | 6 | 4 | 2 |
+| [G1-10 – Quản lý và tính nhuận bút](G1-10-nhuan-but.md) | 8 | 7 | 1 |
+| [G1-11 – Chuyển đổi dữ liệu cũ](G1-11-chuyen-doi-du-lieu.md) | 5 | 5 | 0 |
 
-**[Xem bảng tổng hợp 86 tính năng và mô tả nghiệp vụ](G1-DANH-MUC-TINH-NANG.md)**. Mỗi module có file riêng mô tả **actor, luồng thực hiện, phần FE, phần BE, tiêu chí nghiệm thu và phạm vi cần xác nhận**.
+**[Danh mục 82 tính năng và mô tả nghiệp vụ](G1-DANH-MUC-TINH-NANG.md)**. Mỗi module có bảng actor, nghiệp vụ, phạm vi FE/BE, tiêu chí nghiệm thu riêng và ranh giới sau rà soát.
 
-## Kết quả kiểm tra chất lượng 86 tính năng (09/10/2026)
+## Nhóm công việc triển khai
 
-- **[Báo cáo rà soát và 11 bảng kiểm từng mã tính năng](G1-BAO-CAO-RA-SOAT-86-TINH-NANG.md)**. Đã kiểm đủ 86 ID, phát hiện 5 đầu việc nên chuyển sang WBS phi-feature, 2 CORE nên xem xét chuyển OPTION, 59 mục cần hiệu chỉnh ranh giới/mô tả. Nếu duyệt kiến nghị: **81 tính năng (71 CORE + 10 tùy chọn/có điều kiện) và 5 công việc phi-feature**, chưa cộng 01 tính năng quản lý trang tĩnh CMS có thể phải bổ sung.
-- **Chưa chỉnh bảng danh mục gốc**: README bên dưới vẫn thể hiện 86 tính năng (78 CORE, 8 tùy chọn) để bảo toàn lịch sử trước khi duyệt thay đổi. Không sử dụng tổng 86 nguyên trạng làm cơ sở báo giá.
+- [G1-H01 – Hạ tầng và vận hành ứng dụng](G1-H01-ha-tang-van-hanh.md): 7 công việc ngoài phát triển chức năng (DevOps, backup, security, CI/CD, giám sát ứng dụng).
+- [G1-H02 – Kiểm thử, UAT, migration operations và chuyển giao](G1-H02-nghiem-thu-chuyen-giao.md): 11 công việc, trong đó bao gồm **5 đầu việc chuyển khỏi bảng FE/BE**. Không tính QA trong công thức phần mềm hoặc kết quả GĐ0 hai lần.
 
-## Hai nhóm hỗ trợ (không tính là module nghiệp vụ)
-- [G1-H01 – Hạ tầng, bảo mật và vận hành ứng dụng](G1-H01-ha-tang-van-hanh.md): DevOps, CI/CD, DB, backup, app-monitoring và các chi phí môi trường.
-- [G1-H02 – Kiểm thử tích hợp, UAT, triển khai và chuyển giao](G1-H02-nghiem-thu-chuyen-giao.md): tách phần hỗ trợ nghiệm thu/đào tạo/handover khỏi QA chuẩn đã tính theo công thức báo giá.
+## Tài liệu chất lượng
 
-## Dòng nghiệp vụ xuyên module
+- [Nguyên tắc và owner thành phần dùng chung](G1-THANH-PHAN-DUNG-CHUNG.md).
+- [Checklist nghiệm thu chung và 10 kịch bản E2E](G1-TIEU-CHI-NGHIEM-THU.md).
+- [Báo cáo QA trên danh sách 86 mã ban đầu](G1-BAO-CAO-RA-SOAT-86-TINH-NANG.md) và 11 file `G1-QA-G1-xx.md`: hồ sơ review lịch sử trước chỉnh.
 
-1. **Tin bài:** G1-02 (phân quyền) → G1-03 (soạn, duyệt, xuất bản) ↔ G1-04 (metadata, phân loại) ↔ G1-05 (asset) → G1-01 (website).
-2. **Video:** G1-04 (chương trình/tập) ↔ G1-05 (file, quyền) → G1-08 (playback/CDN) → G1-06 (VOD website).
-3. **Livestream:** G1-07 (lịch và sự kiện) ↔ G1-08 (nguồn phát, streaming, CDN, recording) → G1-07 (trang live) → G1-06 (phát lại sau biên tập).
-4. **Báo cáo và nhuận bút:** G1-03/G1-04 (sản lượng, người tham gia) + G1-01/G1-06/G1-07 (số liệu xem có định nghĩa) → G1-09 (báo cáo) → G1-10 (quy tắc/kỳ/bảng kê).
-5. **Migration:** G1-11 (thu thập, chuẩn hóa, import/đối soát) → G1-03/04/05; redirect trang cũ tại G1-01.
+## Quyết định ranh giới
 
-## Quy ước phân tích và lập dự toán
+1. G1-02 auth/RBAC; G1-03 quy trình duyệt và trang tĩnh CMS; G1-04 taxonomy/thực thể; G1-05 DAM/rights.
+2. G1-01 website; G1-06 VOD/player dùng chung; G1-07 live/lịch; G1-08 tích hợp nguồn media/vendor và CDN, không mặc định tự xây transcoder/media server.
+3. G1-09 báo cáo lượt xem bài/chuyên mục/thời gian, G1-10 tính nhuận bút theo **quy chế VTV8 chưa cung cấp**, không phát triển HRM/payroll toàn diện.
+4. G1-11 script ETL cho website/CMS/kho cũ; H02 đảm nhận đối soát/cutover; không kết nối mạng xã hội.
+5. Ngoài V1 cơ sở: tài khoản người xem, SSO công cộng, DRM, premium, AI, booking, bình luận, các chức năng mạng xã hội.
 
-- `T`: **chủ đề/chức năng được VTV8 nêu trực tiếp**; các luồng chi tiết có thể là suy luận cần xác minh. `B`: **bổ sung** để hoàn thiện vận hành V1. `C`: **có điều kiện** theo quyết định nghiệp vụ/vendor.
-- `CORE`: đề xuất đưa vào V1 để lập dự toán **nếu được chốt**. `OPTION`/`CONDITIONAL`: **chưa cộng vào baseline**, chờ xác nhận. Tổng 86 là danh mục phân tích, không có nghĩa chốt triển khai hết 86.
-- GĐ1 chỉ quản lý tài khoản **CMS nội bộ**; tài khoản người xem/SSO, premium, DRM, cá nhân hóa, commerce, AI thuộc các giai đoạn sau. Nội dung địa danh/di sản ở đây là dữ liệu biên tập, không phải chức năng booking.
-- G1-08 Streaming cần **hai phương án giá** nếu còn thiếu xác nhận: (A) tích hợp VTVcab/VTVprime/nhà cung cấp và (B) tự triển khai phần thiếu. **Không mặc định phải tự xây transcoding, media server, origin/CDN**.
-- Mục tiêu 120.000 CCU và SLA V1 ≥99,9% là **yêu cầu phải kiểm chứng theo kịch bản và hợp đồng**, không phải khả năng đã chứng minh. Phải phân biệt CCU website với CCU xem livestream.
-- Khi chốt tính năng, nhập giờ **FE/BE của một Middle Developer** cho từng feature vào báo giá; phần BA/Design/QA tính theo công thức đã thống nhất. Riêng effort kỹ thuật streaming, migration thực tế, hạ tầng và hỗ trợ nghiệm thu phải được tính riêng, không đếm trùng.
-- Chưa có giờ FE/BE, MD, chi phí hay cam kết 8–12 tuần tại thời điểm lập bản này.
-
-## Căn cứ và trạng thái
-- [Tài liệu đề xuất VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md): phần GĐ1 trang 4–6, kiến trúc/video/CDN/SLA/CCU trang 8–11.
-- [GĐ0 – phân tích nghiệp vụ và khảo sát](../00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md), chưa phải kết quả khảo sát thực địa.
-- Danh sách module **đã được chọn trong trao đổi**; danh sách tính năng, mức CORE/OPTION và tiêu chí nghiệm thu chỉ là **đề xuất để người dùng và VTV8 rà soát**.
+**Nguồn:** [Đề xuất VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md), GĐ1 trang 4–6 và kiến trúc trang 8–11. Chưa chốt FE/BE hours, đơn giá hoặc ngân sách.
