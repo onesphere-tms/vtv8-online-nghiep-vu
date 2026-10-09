@@ -30,3 +30,12 @@
 - [G2-H01 – Hạ tầng vận hành](G2-H01-ha-tang-media-platform.md); [G2-H02 – Pháp lý và UAT](G2-H02-nghiem-thu-phap-ly.md).
 
 **Lưu ý:** Việc giữ 33 CORE không phải tuyên bố đã hoàn thành toàn bộ mục tiêu GĐ2. Nếu VTV8 chốt thương mại trả phí, các tính năng có điều kiện liên quan phải được triển khai và nghiệm thu cùng nhau. Không mặc định xây DRM server, payment gateway, native app hoặc AI/ML riêng.
+
+## Ước tính FE/BE GĐ2 (DRAFT, 09/10/2026)
+
+- [Bảng chi tiết FE/BE cho 66 tính năng](../../bao-gia/DU-TOAN-EFFORT-GD2-FE-BE-DU-THAO.md) · [CSV](../../bao-gia/DU-TOAN-EFFORT-GD2-FE-BE.csv).
+- **33 CORE:** 748 giờ FE + 1.472 giờ BE = 2.220 giờ Coding; **504,55 MD tổng effort** BA/Design/QA.
+- **24 CONDITIONAL:** 688 giờ FE + 1.500 giờ BE = 2.188 giờ Coding, tính riêng theo gate.
+- **9 OPTION:** 212 giờ FE + 408 giờ BE = 620 giờ Coding, chưa đưa vào CORE.
+- **Làm đủ 66:** 5.028 giờ Coding ≈ 1.142,73 MD tổng effort. **Chưa bao gồm** H01/H02 và các khoản vendor/operation; chưa xác nhận khả thi mốc 3–6 tháng.
+

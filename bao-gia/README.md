@@ -54,3 +54,13 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 
 - [Mô tả cấu trúc và các điểm cần kiểm tra trước khi báo giá](templates/Template-Bao-gia-Du-an-cau-truc.md).
 - [Tệp gốc **Template Báo giá Dự án.xlsx**](templates/Template%20Báo%20giá%20Dự%20án.xlsx) đã được lưu trên Git. Khi lập báo giá, tạo workbook VTV8Online riêng, giữ template gốc làm bản chuẩn.
+
+## Dự toán FE/BE GĐ2 – Media Platform (DRAFT, 09/10/2026)
+
+- [Ước tính chi tiết 66 tính năng FE/BE theo Middle Developer](DU-TOAN-EFFORT-GD2-FE-BE-DU-THAO.md).
+- [CSV 66 dòng để sử dụng trong Excel](DU-TOAN-EFFORT-GD2-FE-BE.csv).
+- **CORE:** FE 748h + BE 1.472h = 2.220h Coding, quy đổi **504,55 MD** với BA/Design/QA.
+- **CONDITIONAL:** FE 688h + BE 1.500h = 2.188h Coding, **497,27 MD**, chỉ chọn theo điều kiện pháp lý/vendor/thương mại.
+- **OPTION:** FE 212h + BE 408h = 620h Coding, **140,91 MD**, tính riêng.
+- **Làm đủ 66 tính năng:** 5.028h Coding = **1.142,73 MD** theo công thức. Chưa gồm G2-H01/H02, phí vendor/CDN/payment/DRM, vận hành kiểm duyệt, bảo mật/hiệu năng chuyên sâu và PM.
+
