@@ -1,6 +1,6 @@
 # Khung ước tính và báo giá theo giai đoạn
 
-**Trạng thái:** chưa có con số chính thức; không giả định mức lương, hệ số hoặc chi phí nhà cung cấp khi chưa có dữ liệu.
+**Trạng thái:** GĐ0 đã có [đề xuất giờ công chi tiết 320 giờ / 40 MD](DU-TOAN-EFFORT-GD0-DU-THAO.md) cho 33 công việc theo vai trò, **DRAFT ESTIMATE – chưa phê duyệt**. GĐ1–GĐ4 chưa có giờ code chốt; không giả định mức lương, hệ số hoặc chi phí vendor khi chưa có dữ liệu.
 
 ## Đơn vị bóc tách
 **Giai đoạn → Module → Tính năng/use case → Công việc → Effort → Chi phí.**
@@ -36,6 +36,11 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 3. Chốt tiêu chí nghiệm thu, bảo hành, SLA, chuyển giao.
 4. Tổng hợp rủi ro, phụ thuộc, dự phòng thay đổi.
 5. Xác nhận đơn giá nhân sự, thuế, đơn vị tiền tệ, thời hạn hiệu lực.
+
+## Bảng effort khảo sát GĐ0
+
+- [Chi tiết 33 công việc GĐ0: vai trò, giờ công, MD, giả định và tiến độ](DU-TOAN-EFFORT-GD0-DU-THAO.md).
+- **Tổng cơ sở đề xuất:** 320 giờ = 40 MD. Không áp dụng công thức FE/BE (Coding 55%) cho GĐ0; chưa có đơn giá hay số tiền và chưa điền vào template phần mềm.
 
 ## Mẫu Excel do người dùng cung cấp
 

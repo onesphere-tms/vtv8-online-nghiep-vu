@@ -35,7 +35,7 @@ Các tỷ trọng đang khớp với file Excel gốc và được coi là **cô
 
 ## 4. Các khoản KHÔNG nên ép vào công thức FE/BE
 
-- GĐ0: khảo sát, làm việc với stakeholder, thiết kế kiến trúc, lập tài liệu yêu cầu và kế hoạch.
+- GĐ0: khảo sát, làm việc với stakeholder, thiết kế kiến trúc, lập tài liệu yêu cầu và kế hoạch. **Đã có [bảng ước tính GĐ0 riêng theo 7 vai trò](DU-TOAN-EFFORT-GD0-DU-THAO.md), 320 giờ / 40 MD ở trạng thái DRAFT**, không phát sinh từ công thức FE/BE.
 - Chi phí hạ tầng/CDN/video/băng thông/storage, license DRM, AI API, SMS, dịch vụ/giấy phép nhà cung cấp.
 - Hoạt động thuần migration dữ liệu hàng loạt, chi phí vận hành streaming, mua/sử dụng media platform bên ngoài.
 - Các hoạt động DevOps, kiểm thử tải/kiểm thử bảo mật chuyên sâu, nghiệm thu/chuyển giao độc lập khi scope đòi hỏi.

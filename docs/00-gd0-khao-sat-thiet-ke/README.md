@@ -4,6 +4,8 @@
 
 **[Xem bản tổng hợp 33 công việc GĐ0](G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md)**
 
+**[Ước tính effort chi tiết GĐ0 – DRAFT: 320 giờ / 40 MD](../../bao-gia/DU-TOAN-EFFORT-GD0-DU-THAO.md)**. Bảng này phân bổ 33 công việc theo 7 vai trò; chưa có đơn giá, chưa được người dùng phê duyệt giờ công hoặc VTV8 nghiệm thu.
+
 ## Module hiện hành
 
 | Mã | Module | Công việc | Tài liệu |
@@ -24,7 +26,7 @@
 - Một công việc mã Fxxx là đầu việc khảo sát/thiết kế; không phải tính năng code. Checklist chi tiết nằm trong trang module.
 - Không mặc định triển khai phần mềm, chạy migration, hoàn thiện UI hay kiểm thử tải 120.000 CCU thực tế ở GĐ0.
 - Thống nhất **danh sách công việc** khác với xác nhận **kết quả khảo sát thực tế**. Các giả định phải tiếp tục kiểm chứng.
-- Chưa có giờ FE/BE/MD hoặc giá. Không ép chi phí khảo sát GĐ0 vào công thức tỷ trọng giờ coding dùng cho GĐ1–GĐ4.
+- Đã có **đề xuất ước tính GĐ0 320 giờ = 40 MD**, phân bổ theo vai trò khảo sát/thiết kế, ở trạng thái **DRAFT ESTIMATE**. Chưa có đơn giá hoặc giá trị chốt; không áp dụng công thức coding FE/BE cho GĐ0.
 
 ## Phiên bản cũ
 
