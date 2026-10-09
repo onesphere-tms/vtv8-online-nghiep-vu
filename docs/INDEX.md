@@ -26,7 +26,7 @@
 5. Riêng GĐ0 là dịch vụ khảo sát/thiết kế: dùng đầu ra và khối lượng tư vấn làm căn cứ dự toán, không suy luận chi phí từ FE/BE bằng 0.
 
 ## Thứ tự
-- Hiện tại: GĐ0 đã chốt 8 hạng mục cấp module, bước tiếp theo là phân tích G0-01.
+- Hiện tại: GĐ0 đã chốt 8 hạng mục cấp module và đã chốt 11 công việc khảo sát G0-01 (F001–F011); chưa ước tính effort. [Chi tiết G0-01](00-gd0-khao-sat-thiet-ke/G0-01-khao-sat-nghiep-vu-va-pham-vi-san-pham.md).
 - Sau đó: lần lượt chốt module, đặc tả tính năng và ước tính GĐ1, GĐ2, GĐ3, GĐ4.
 
 **Chú ý:** Thời lượng trong tài liệu nguồn là dự kiến. Chưa chốt đơn giá, thời hạn, khối lượng hay ngân sách thực hiện.

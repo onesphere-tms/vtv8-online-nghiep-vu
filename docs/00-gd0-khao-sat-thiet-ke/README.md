@@ -5,7 +5,7 @@
 - **Thời lượng dự kiến nêu trong tài liệu VTV8:** 2–4 tuần; phải kiểm chứng sau khi biết điều kiện khảo sát và đầu ra.
 - **Mục tiêu:** khảo sát hiện trạng, xác định phạm vi sản phẩm, lập phương án UX/UI, kiến trúc, streaming, migration, pháp lý và đầu vào báo giá.
 - **Tính chất:** đây là **8 hạng mục khảo sát/thiết kế**, không phải 8 module phần mềm đã lập trình.
-- **Mức độ phân tích hiện tại:** đã chốt **tên và ranh giới ở cấp module**, chưa chốt tính năng, khối lượng công việc, giờ code hoặc chi phí.
+- **Mức độ phân tích hiện tại:** đã chốt **8 tên/ranh giới module GĐ0** và danh sách **11 hạng mục khảo sát G0-01**; chi tiết nghiệp vụ, khối lượng, giờ công và chi phí chưa chốt.
 
 ## 1. Danh sách 8 hạng mục đã chốt
 
@@ -66,6 +66,8 @@ Các mã mới thay thế danh sách cũ kể từ ngày thống nhất. Thông 
 
 ## 6. Trạng thái và bước kế tiếp
 
-**Hoàn thành:** rà soát và thống nhất **8 hạng mục cấp module**. **Chưa thực hiện:** chốt danh sách tính năng/công việc chi tiết; dự toán FE/BE; tính MD; lập báo giá.
+**Hoàn thành:** thống nhất **8 module GĐ0** và **11 hạng mục cấp dưới của G0-01 (F001–F011)**. [Xem danh sách 11 hạng mục G0-01](G0-01-khao-sat-nghiep-vu-va-pham-vi-san-pham.md).
 
-Lần làm việc tiếp theo: phân tích sâu **G0-01 – Khảo sát nghiệp vụ và xác định phạm vi sản phẩm** sau khi thống nhất nội dung cần phân tích trong hạng mục đó.
+**Chưa thực hiện:** phê duyệt từ VTV8, xác định khối lượng chi tiết từng công việc, dự toán giờ công/MD và báo giá.
+
+**Bước kế tiếp:** tiếp tục phân tích/định lượng G0-01 theo danh sách đã chốt hoặc chuyển sang thống nhất danh mục G0-02 theo cùng quy trình.
