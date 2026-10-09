@@ -42,6 +42,14 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 - [Chi tiết 33 công việc GĐ0: vai trò, giờ công, MD, giả định và tiến độ](DU-TOAN-EFFORT-GD0-DU-THAO.md).
 - **Tổng cơ sở đề xuất:** 320 giờ = 40 MD. Không áp dụng công thức FE/BE (Coding 55%) cho GĐ0; chưa có đơn giá hay số tiền và chưa điền vào template phần mềm.
 
+## Dự toán phát triển GĐ1 – FE/BE Middle Developer (DRAFT)
+
+- [Bảng **82 tính năng** có giờ FE, BE và căn cứ estimate từng mã](DU-TOAN-EFFORT-GD1-FE-BE-DU-THAO.md).
+- [CSV 82 tính năng có sẵn cột BA/Design/QA/MD để đối chiếu và nhập workbook](DU-TOAN-EFFORT-GD1-FE-BE.csv).
+- **CORE 72 tính năng:** FE **1.616h**, BE **2.600h**, Coding **4.216h**; theo tỷ trọng Coding 55%, tổng effort **7.665,45h = 958,18 MD** (chưa gồm H01/H02/Streaming vendor/migration execution/PM).
+- **10 OPTION/CONDITIONAL:** Coding **572h** (FE **208h**, BE **364h**) tính riêng, không mặc định cộng vào V1 cơ sở.
+- Chỉ là **ước tính nội bộ lần 1**, phụ thuộc vào quy chế nhuận bút, khả năng vendor streaming, khối lượng dữ liệu, phân quyền CMS và phương án kỹ thuật từ GĐ0.
+
 ## Mẫu Excel do người dùng cung cấp
 
 - [Mô tả cấu trúc và các điểm cần kiểm tra trước khi báo giá](templates/Template-Bao-gia-Du-an-cau-truc.md).

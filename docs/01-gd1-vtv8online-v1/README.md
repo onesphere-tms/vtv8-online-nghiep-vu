@@ -22,6 +22,13 @@
 
 **[Danh mục 82 tính năng và mô tả nghiệp vụ](G1-DANH-MUC-TINH-NANG.md)**. Mỗi module có bảng actor, nghiệp vụ, phạm vi FE/BE, tiêu chí nghiệm thu riêng và ranh giới sau rà soát.
 
+## Giờ FE/BE ước tính theo tính năng (09/10/2026)
+
+- **[Dự toán chi tiết 82 tính năng FE/BE](../../bao-gia/DU-TOAN-EFFORT-GD1-FE-BE-DU-THAO.md)** và [CSV bảng công sức](../../bao-gia/DU-TOAN-EFFORT-GD1-FE-BE.csv).
+- **CORE (72):** FE 1.616h + BE 2.600h = 4.216h Coding; tổng 7.665,45h / 958,18 MD theo tỷ trọng BA/Design/QA của biểu mẫu.
+- **OPTION/CONDITIONAL (10):** FE 208h + BE 364h = 572h Coding, để riêng, chỉ cộng nếu được xác nhận.
+- **H01/H02, thuê streaming/CDN, kiểm thử tải chuyên sâu, chạy migration dữ liệu và PM** chưa có dự toán giờ/giá ở bản FE/BE này, không tự động nằm trong 958,18 MD.
+
 ## Nhóm công việc triển khai
 
 - [G1-H01 – Hạ tầng và vận hành ứng dụng](G1-H01-ha-tang-van-hanh.md): 7 công việc ngoài phát triển chức năng (DevOps, backup, security, CI/CD, giám sát ứng dụng).
