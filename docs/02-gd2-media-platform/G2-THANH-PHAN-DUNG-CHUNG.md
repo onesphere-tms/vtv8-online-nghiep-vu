@@ -16,3 +16,17 @@
 | Audience analytics | Chưa có GĐ1 ngoài aggregate views | G2-11 event schema/analytics chung | G2-05 và G2-07 chỉ phát event, không xây analytics service riêng |
 
 **Giới hạn giai đoạn:** GĐ2 không phát triển native app, AI semantic search/auto subtitle/auto clip, TMĐT/booking và partner portal (phần sau lộ trình). Nếu VTV8 chuyển một phần sang GĐ2 phải có thay đổi phạm vi được xác nhận.
+
+
+## Ranh giới sau chuẩn hóa 66 tính năng
+
+- **Xác thực và bảo mật phiên:** G2-01-F006 gộp vào G2-01-F002, DevOps tại H01-W001/W007. Không tự xây thêm một hệ phiên riêng.
+- **Recommendation:** cold-start G2-05-F004 đã nằm trong G2-05-F003 và các khối nội dung nổi bật của GĐ1. Tracking hiệu quả G2-05-F006 nằm ở G2-11-F001/F008; funnel G2-11-F004 là OPTION.
+- **Media:** giới hạn thời hạn G2-06-F005 được xử lý bằng DAM rights G1-05 cùng entitlement G2-10-F002 khi thương mại bật; live→VOD G2-06-F006 do GĐ1 phụ trách. Player GĐ2 chỉ phát triển resume, lựa chất lượng, subtitle và auto-next khi phù hợp.
+- **Commercial:** G2-09 sở hữu gói/giao dịch/vòng đời thuê bao; G2-10 sở hữu entitlement/paywall/playback. Quyền gốc và ngày hết hạn G2-10-F007 được dùng lại từ G1-05 và kiểm tra tại G2-10-F002/F004. Xem [COMMERCIAL_RELEASE_GATE](G2-COMMERCIAL-RELEASE-GATE.md).
+- **Privacy:** consent/data requests chỉ một đầu mối G2-01-F005, history do G2-03 và analytics deletion do G2-11-F006; không tạo ba form hoặc ba cơ chế xóa độc lập.
+- **Notification:** inbox/read state thuộc G2-07-F003; delivery console G2-07-F007 là CONDITIONAL và chỉ cần nếu kích hoạt kênh bên ngoài.
+- **Tìm kiếm:** autocomplete G2-04-F003 là OPTION; G2-04-F001/F005 sở hữu index/reindex, không bắt buộc cụm OpenSearch hay dashboard kỹ thuật riêng.
+- **Bình luận:** toàn bộ G2-08 còn CONDITIONAL theo gate pháp lý G2-H02-W001.
+
+[Danh mục 66](G2-DANH-MUC-TINH-NANG.md) · [Mapping 72→66](G2-MAPPING-72-66.md) · [E2E](G2-TIEU-CHI-NGHIEM-THU.md).

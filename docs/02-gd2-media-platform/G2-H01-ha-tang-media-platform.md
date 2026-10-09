@@ -11,3 +11,10 @@
 | G2-H01-W005 | Hạ tầng subscription và DRM provider | Cấu hình sandbox/prod gateway, webhook, DRM token/license provider | Vendor fee/license và kiểm tra bảo mật, không tự viết DRM |
 | G2-H01-W006 | Media QoE và năng lực phát nâng cấp | Provider metrics, QoE monitoring, phân loại tải/cấu hình CDN video nếu nâng cấp | Phí media/CDN và tải phụ thuộc SLA, không tính lại G1-08 |
 | G2-H01-W007 | Bảo mật, sao lưu, monitoring mở rộng | Logs/alerting, retention cá nhân và cải thiện monitoring toàn nền tảng | Chỉ tính phần tăng từ G1-H01, không mua lại hạ tầng cũ |
+
+## Phạm vi sau chuẩn hóa 66 tính năng
+
+- Security session người xem G2-01-F006 được gộp G2-01-F002; H01-W001/W007 chỉ thiết lập môi trường/secret/monitoring, không tính lại auth API.
+- Hạ tầng thông báo H01-W004 chỉ mở phần push/email khi điều kiện G2-07-F004/F005 được chốt; không mua sắm dịch vụ gửi thay cho inbox cơ bản.
+- Gateway/DRM setup H01-W005 tuân theo [COMMERCIAL_RELEASE_GATE](G2-COMMERCIAL-RELEASE-GATE.md), tách chi phí vendor khỏi giờ FE/BE.
+- G2-H01-W003 chứa event pipeline/retention nhưng watch-progress nghiệp vụ thuộc G2-03; G2-11 tiêu thụ events, không xây một hệ tiến độ khác.

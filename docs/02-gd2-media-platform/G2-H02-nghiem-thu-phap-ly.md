@@ -12,3 +12,9 @@
 | G2-H02-W006 | Kiểm chứng hiệu năng Media Platform | Tải API account/search/events, media QoE/SLA theo nguồn và quy tắc đo | Phân biệt media tests GĐ1 và tăng tải mới của GĐ2; yêu cầu provider nếu có |
 | G2-H02-W007 | Cutover/nâng cấp từ GĐ1 | Kế hoạch migration user/media metadata nếu có, rollback và go-live dịch vụ mới | Không đổi cơ sở dữ liệu GĐ1 chỉ vì GĐ2 xuất hiện |
 | G2-H02-W008 | Đào tạo/bàn giao vận hành GĐ2 | Hướng dẫn quản trị thuê bao, analytics, moderation nếu bật và notification | Bàn giao ngoài QA, không lặp GĐ1 |
+
+## Phạm vi sau chuẩn hóa 66 tính năng
+
+- H02-W001 là điều kiện mở module tương tác G2-08, không mặc định VTV8 đã có giấy phép.
+- H02-W002/W004 phải dùng [COMMERCIAL_RELEASE_GATE](G2-COMMERCIAL-RELEASE-GATE.md) làm đầu vào UAT trọn luồng mua gói, giao dịch, entitlement, private playback và DRM nếu phải có.
+- [Checklist 10 luồng E2E](G2-TIEU-CHI-NGHIEM-THU.md) là căn cứ QA riêng cùng acceptance từng tính năng; không tính QA tiêu chuẩn đã có hai lần.

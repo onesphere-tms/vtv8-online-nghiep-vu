@@ -1,5 +1,7 @@
 # GĐ2 – Báo cáo rà soát chất lượng và phạm vi 72 tính năng (09/10/2026)
 
+> **BẢN QA LỊCH SỬ TRÊN 72 MÃ TRƯỚC CHỈNH.** Các kiến nghị trong báo cáo này **đã được áp dụng** trong [danh mục 66 tính năng hiện hành](G2-DANH-MUC-TINH-NANG.md): **33 CORE, 9 OPTION, 24 CONDITIONAL và 6 mã gộp**. [Bảng mapping đầy đủ 72→66](G2-MAPPING-72-66.md) giải thích từng thay đổi. Những dòng dưới đây nói “chưa áp dụng”, “nếu duyệt” phản ánh thời điểm rà soát ban đầu, **không còn là tình trạng hiện tại**. VTV8 chưa phê duyệt chính thức.
+
 > **Trạng thái: ĐÃ RÀ SOÁT, KIẾN NGHỊ; CHƯA ÁP DỤNG VÀO DANH MỤC GỐC.** Kiểm đủ 72/72 mã theo [danh mục GĐ2](G2-DANH-MUC-TINH-NANG.md) và 11 tài liệu module. Nội dung phân loại mới là phương án đề xuất, **chưa được VTV8 hoặc người dùng phê duyệt**; không tính FE/BE ở bước này.
 >
 > **Căn cứ:** [Bản trích xuất đề xuất VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md), lộ trình GĐ2 trang 3, mục GĐ2 trang 6–7, kiến trúc/nguồn lực trang 8–11; [phạm vi 82 tính năng GĐ1 đã rà soát](../01-gd1-vtv8online-v1/G1-DANH-MUC-TINH-NANG.md) và [quy tắc không tính trùng GĐ1](../01-gd1-vtv8online-v1/G1-THANH-PHAN-DUNG-CHUNG.md).
