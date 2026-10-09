@@ -1,5 +1,7 @@
 # GĐ3 – Báo cáo QA phạm vi 70 tính năng Content Commerce
 
+> **HỒ SƠ QA LỊCH SỬ:** các kiến nghị **đã áp dụng** trong [64 tính năng hiện hành](G3-DANH-MUC-TINH-NANG.md) với [mapping đầy đủ 70→64](G3-MAPPING-70-64.md). Những câu dưới đây nói 'chưa áp dụng' chỉ thể hiện trạng thái lúc viết QA ban đầu; VTV8 chưa phê duyệt.
+
 > **09/10/2026 – ĐÃ RÀ SOÁT, CHƯA ÁP DỤNG KIẾN NGHỊ VÀO DANH MỤC GỐC.** Đối chiếu đủ 70/70 mã theo 10 module, [nguồn đề xuất VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md), [GĐ1](../01-gd1-vtv8online-v1/README.md), [GĐ2](../02-gd2-media-platform/README.md). Chưa được VTV8 phê duyệt, chưa tính giờ FE/BE.
 
 ## 1. Kết quả
