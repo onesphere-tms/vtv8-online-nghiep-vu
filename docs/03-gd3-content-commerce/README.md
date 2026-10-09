@@ -34,3 +34,11 @@
 - [G3-H01 – hạ tầng & tích hợp](G3-H01-ha-tang-tich-hop.md) và [G3-H02 – pháp lý, UAT & bàn giao](G3-H02-phap-ly-nghiem-thu.md).
 
 **Phạm vi cần hiểu đúng:** CORE chỉ bao phủ bước A (Content + Lead). B1 Affiliate, B2 Booking API và C Marketplace vẫn nằm trong định hướng đề xuất VTV8 nhưng phụ thuộc việc chốt đối tác và mô hình kinh doanh; không tự cộng 35 CONDITIONAL vào cam kết phát triển đợt đầu. B2B là tùy chọn, không được coi là bước nguồn bắt buộc. **Chưa ước tính giờ FE/BE**.
+
+## Dự toán giờ công FE/BE GĐ3 (DRAFT V1)
+
+- [Bảng dự toán đủ 64 mã, bao gồm FE/BE, BA/Design/QA, MD và ranh giới theo gói](../../bao-gia/DU-TOAN-EFFORT-GD3-FE-BE-DU-THAO.md).
+- [CSV 64 feature](../../bao-gia/DU-TOAN-EFFORT-GD3-FE-BE.csv) và [CSV tổng hợp theo gói](../../bao-gia/TONG-HOP-DU-TOAN-GD3-THEO-GOI.csv).
+- **15 CORE Content + Lead:** 1.320 giờ Coding, **300 MD** tổng effort. **35 CONDITIONAL:** 4.668 giờ Coding, **1.060,91 MD**. **14 OPTION:** 1.320 giờ Coding, **300 MD**.
+- **Nếu làm đủ 64:** 7.308 giờ Coding, **1.660,91 MD** tổng effort theo tỷ trọng đã thống nhất. Finance affiliate/marketplace được đếm một lần, không tự cộng cả gói điều kiện vào bước A.
+- Chưa được VTV8 xác nhận; chưa tính G3-H01/H02, phí đối tác/giấy phép, quản trị pháp lý, vận hành, PM hoặc thời gian chờ API; không coi số MD là cam kết tiến độ 6–12 tháng.
