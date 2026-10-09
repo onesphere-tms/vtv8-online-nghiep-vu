@@ -64,3 +64,13 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 - **OPTION:** FE 212h + BE 408h = 620h Coding, **140,91 MD**, tính riêng.
 - **Làm đủ 66 tính năng:** 5.028h Coding = **1.142,73 MD** theo công thức. Chưa gồm G2-H01/H02, phí vendor/CDN/payment/DRM, vận hành kiểm duyệt, bảo mật/hiệu năng chuyên sâu và PM.
 
+
+## Dự toán FE/BE GĐ3 – Content Commerce (DRAFT, 09/10/2026)
+
+- [Ước tính theo từng mã trong danh mục 64 tính năng GĐ3](DU-TOAN-EFFORT-GD3-FE-BE-DU-THAO.md).
+- [CSV chi tiết 64 mã để đối chiếu/import Excel](DU-TOAN-EFFORT-GD3-FE-BE.csv) · [CSV tổng theo gói A/B1/B2/C/B2B](TONG-HOP-DU-TOAN-GD3-THEO-GOI.csv).
+- **15 CORE – Content + Lead:** FE 508h + BE 812h = 1.320h Coding, tổng effort 300 MD.
+- **35 CONDITIONAL:** FE 1.380h + BE 3.288h = 4.668h Coding, tổng effort 1.060,91 MD; trong đó Affiliate/Booking API, commission và marketplace tách gói.
+- **14 OPTION:** FE 476h + BE 844h = 1.320h Coding, tổng effort 300 MD, có B2B.
+- **Đủ 64 mã:** FE 2.364h + BE 4.944h = 7.308h Coding, **1.660,91 MD** sau công thức BA/Design/QA.
+- Đây là ước tính Middle Developer nội bộ lần 1, **không tính hệ số tăng năng suất AI**, chưa được VTV8 chốt. Chưa bao gồm G3-H01/H02, licensing/payment/booking partner, vendor fees, legal, PM và vận hành. Finance G3-09 chỉ tính một lần nếu cả Affiliate và Marketplace được triển khai.
