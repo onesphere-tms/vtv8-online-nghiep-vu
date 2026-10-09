@@ -5,7 +5,7 @@
 | Giai đoạn | Tên | Danh mục | Trạng thái |
 |---|---|---|---|
 | GĐ0 | Khảo sát, BA, thiết kế | [33 công việc đã chốt](00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md) · [Ước tính chi tiết](../bao-gia/DU-TOAN-EFFORT-GD0-DU-THAO.md) | Danh mục chốt nội bộ; effort 320 giờ **DRAFT** |
-| GĐ1 | VTV8Online V1 | [11 module + 2 nhóm triển khai](01-gd1-vtv8online-v1/README.md) · [86 tính năng chi tiết](01-gd1-vtv8online-v1/G1-DANH-MUC-TINH-NANG.md) | Cấu trúc được chọn; tính năng **DRAFT**, chưa ước tính |
+| GĐ1 | VTV8Online V1 | [11 module + 2 nhóm](01-gd1-vtv8online-v1/README.md) · [86 tính năng đang rà soát](01-gd1-vtv8online-v1/G1-DANH-MUC-TINH-NANG.md) · [Báo cáo QA phạm vi](01-gd1-vtv8online-v1/G1-BAO-CAO-RA-SOAT-86-TINH-NANG.md) | 86 ID đã kiểm; kiến nghị phân loại lại, **chưa chốt feature baseline** |
 | GĐ2 | Media Platform | [GĐ2](02-gd2-media-platform/README.md) | DRAFT |
 | GĐ3 | Content Commerce | [GĐ3](03-gd3-content-commerce/README.md) | DRAFT |
 | GĐ4 | Digital Ecosystem | [GĐ4](04-gd4-digital-ecosystem/README.md) | DRAFT |

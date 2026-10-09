@@ -23,6 +23,11 @@
 
 **[Xem bảng tổng hợp 86 tính năng và mô tả nghiệp vụ](G1-DANH-MUC-TINH-NANG.md)**. Mỗi module có file riêng mô tả **actor, luồng thực hiện, phần FE, phần BE, tiêu chí nghiệm thu và phạm vi cần xác nhận**.
 
+## Kết quả kiểm tra chất lượng 86 tính năng (09/10/2026)
+
+- **[Báo cáo rà soát và 11 bảng kiểm từng mã tính năng](G1-BAO-CAO-RA-SOAT-86-TINH-NANG.md)**. Đã kiểm đủ 86 ID, phát hiện 5 đầu việc nên chuyển sang WBS phi-feature, 2 CORE nên xem xét chuyển OPTION, 59 mục cần hiệu chỉnh ranh giới/mô tả. Nếu duyệt kiến nghị: **81 tính năng (71 CORE + 10 tùy chọn/có điều kiện) và 5 công việc phi-feature**, chưa cộng 01 tính năng quản lý trang tĩnh CMS có thể phải bổ sung.
+- **Chưa chỉnh bảng danh mục gốc**: README bên dưới vẫn thể hiện 86 tính năng (78 CORE, 8 tùy chọn) để bảo toàn lịch sử trước khi duyệt thay đổi. Không sử dụng tổng 86 nguyên trạng làm cơ sở báo giá.
+
 ## Hai nhóm hỗ trợ (không tính là module nghiệp vụ)
 - [G1-H01 – Hạ tầng, bảo mật và vận hành ứng dụng](G1-H01-ha-tang-van-hanh.md): DevOps, CI/CD, DB, backup, app-monitoring và các chi phí môi trường.
 - [G1-H02 – Kiểm thử tích hợp, UAT, triển khai và chuyển giao](G1-H02-nghiem-thu-chuyen-giao.md): tách phần hỗ trợ nghiệm thu/đào tạo/handover khỏi QA chuẩn đã tính theo công thức báo giá.
