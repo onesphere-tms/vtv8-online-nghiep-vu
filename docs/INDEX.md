@@ -6,7 +6,7 @@
 |---|---|---|---|
 | GĐ0 | Khảo sát, BA, thiết kế | [33 công việc đã chốt](00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md) · [Ước tính chi tiết](../bao-gia/DU-TOAN-EFFORT-GD0-DU-THAO.md) | Danh mục chốt nội bộ; effort 320 giờ **DRAFT** |
 | GĐ1 | VTV8Online V1 | [82 tính năng](01-gd1-vtv8online-v1/README.md) · [Dự toán FE/BE theo từng mã](../bao-gia/DU-TOAN-EFFORT-GD1-FE-BE-DU-THAO.md) · [CSV](../bao-gia/DU-TOAN-EFFORT-GD1-FE-BE.csv) | CORE: 1.616h FE / 2.600h BE = 4.216h Coding; 958,18 MD effort theo công thức, **DRAFT** |
-| GĐ2 | Media Platform | [Đề xuất 11 module](02-gd2-media-platform/README.md) · [72 tính năng phân tích](02-gd2-media-platform/G2-DANH-MUC-TINH-NANG.md) | DRAFT nội bộ: 47 CORE đề xuất, 8 OPTION, 17 CONDITIONAL; chưa ước tính |
+| GĐ2 | Media Platform | [11 module và 72 tính năng hiện hành](02-gd2-media-platform/README.md) · [Báo cáo QA 72 mã](02-gd2-media-platform/G2-BAO-CAO-QA-72-TINH-NANG.md) | Đã rà soát, kiến nghị chuẩn hóa 66 tính năng, **chưa cập nhật scope gốc** |
 | GĐ3 | Content Commerce | [GĐ3](03-gd3-content-commerce/README.md) | DRAFT |
 | GĐ4 | Digital Ecosystem | [GĐ4](04-gd4-digital-ecosystem/README.md) | DRAFT |
 

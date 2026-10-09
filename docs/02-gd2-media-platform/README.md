@@ -22,6 +22,11 @@
 
 **[Mở bảng danh mục 72 tính năng và cơ sở phân tích](G2-DANH-MUC-TINH-NANG.md)**. Mỗi tài liệu module có mục tiêu, ranh giới, phụ thuộc, actor, luồng nghiệp vụ, phạm vi FE/BE mới và nghiệm thu sơ bộ.
 
+## Kết quả kiểm tra chất lượng GĐ2 – 72 tính năng (09/10/2026)
+
+- **[Báo cáo QA 72 tính năng, 11 bảng đánh giá từng mã](G2-BAO-CAO-QA-72-TINH-NANG.md)**: đề xuất gộp 6 mã, chuyển 2 CORE thành OPTION, chuyển 7 CORE thành CONDITIONAL và điều chỉnh ranh giới 25 mã. Nếu duyệt, danh mục dự kiến còn **66 tính năng (33 CORE + 9 OPTION + 24 CONDITIONAL)**.
+- **Chưa thay danh mục hiện hành 72 tính năng**: tài liệu module và bảng tổng hợp bên dưới vẫn giữ phân loại gốc 47 CORE/8 OPTION/17 CONDITIONAL để truy vết trước khi duyệt chỉnh phạm vi. Yêu cầu thuê bao/nội dung trả phí/DRM từ nguồn phải được xem là một luồng nghiệm thu có điều kiện, không tự ý bỏ khỏi GĐ2.
+
 ## Hai nhóm việc hỗ trợ
 
 - [G2-H01 – Hạ tầng và vận hành Media Platform](G2-H01-ha-tang-media-platform.md).
