@@ -20,9 +20,11 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 | Bảo trì/vận hành | Monitoring, support, incident response, backup | Định kỳ |
 
 ## Cột bắt buộc của bảng ước tính
-`Phase | Module ID | Feature ID | Source | Scope (Included/Optional/Excluded) | Complexity | BA days | UX days | FE days | BE days | QA days | DevOps days | Integration days | Dependency | Assumption | One-time cost | Recurring cost | Confidence`
+`Phase | Module ID | Feature ID | Source | Scope | Complexity | FE hours [nhập] | BE hours [nhập] | BA hours [công thức] | Design hours [công thức] | QA hours [công thức] | Total hours [công thức] | MD [công thức] | Dependency | Assumption | Separate cost | Confidence`
 
-- Effort phải tách vai trò, không chỉ ước tính bằng “số màn hình”.
+- [Phương pháp ước tính chính thức](PHUONG-PHAP-UOC-TINH.md): **chỉ nhập giờ FE, BE cho feature**; BA, Design và QA tự tính theo tỷ trọng từ Config. Contract/Blockchain không thuộc VTV8Online.
+- Giờ FE/BE là công sức **nếu 1 người thực hiện phần code tương ứng**, không phải thời gian lịch của cả team.
+- Công việc GĐ0, hạ tầng, license, streaming, DevOps và các hoạt động ngoài coding có thể cần bảng effort/chi phí riêng; tránh cộng trùng.
 - Không cộng trùng một tính năng đã xây ở giai đoạn trước; phase sau tính phần *incremental*.
 - Chi phí CDN/media phụ thuộc bitrate, traffic, địa lý phân phối, retention và vendor; cần tách khỏi đơn giá viết code.
 - `TBC` báo giá theo kịch bản hoặc khoảng, kèm điều kiện loại trừ.

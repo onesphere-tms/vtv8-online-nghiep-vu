@@ -23,7 +23,10 @@
 ## 9. Phụ thuộc và tái sử dụng từ các giai đoạn trước
 ## 10. Điều kiện nghiệm thu & test scenarios
 ## 11. Giả định, rủi ro, câu hỏi cần xác nhận
-## 12. WBS/effort (BA, UX, FE, BE, QA, DevOps, integration)
+## 12. WBS/effort báo giá
+- Nhập thủ công: tổng giờ code **FE và BE** theo các feature; mỗi con số là effort nếu **một coder** thực hiện phần code liên quan.
+- Công thức Excel: BA = Coding × 10/55; Design = Coding × 15/55; QA = Coding × 20/55; MD = Tổng giờ / 8.
+- Ghi các hạng mục phi-code, vendor, DevOps, migration đặc thù vào khoản ước tính riêng; không có Contract/Blockchain.
 ## 13. Changelog / biên bản xác nhận
 
 **Nguyên tắc:** Chức năng đề xuất phải đánh dấu PROPOSED, chưa xác nhận không đánh dấu Included cho báo giá cố định.

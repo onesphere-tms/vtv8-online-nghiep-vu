@@ -15,4 +15,9 @@
 ## 11. Acceptance criteria (Given/When/Then)
 ## 12. Test cases & dữ liệu kiểm thử
 ## 13. Giả định, câu hỏi cần xác nhận, ngoài phạm vi
-## 14. Effort theo vai trò & yếu tố ảnh hưởng chi phí
+## 14. Ước tính code và yếu tố ảnh hưởng chi phí
+- FE hours (1 developer): [TBC]
+- BE hours (1 developer): [TBC]
+- Coding = FE + BE; BA/Design/QA do **Excel tự tính**, không ước tính tay.
+- Không có cột Contract/Blockchain cho VTV8Online.
+- Chi phí riêng ngoài code: [nếu có; ghi căn cứ, khối lượng và đơn vị tính].
