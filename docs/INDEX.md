@@ -1,32 +1,32 @@
 # Mục lục hồ sơ VTV8Online
 
-**Trạng thái:** DRAFT · Danh sách module là **khung phân rã đề xuất**, cần khảo sát/xác nhận trước khi chốt hợp đồng.
+**Trạng thái:** Tài liệu làm việc. **Riêng danh mục 8 hạng mục GĐ0 đã được thống nhất nội bộ ngày 09/10/2026**; chi tiết từng module và các giai đoạn còn lại chưa được VTV8 phê duyệt.
 
-| Giai đoạn | Tên | Danh mục |
-|---|---|---|
-| GĐ0 | Khảo sát, BA, thiết kế | [GĐ0](00-gd0-khao-sat-thiet-ke/README.md) |
-| GĐ1 | VTV8Online V1 | [GĐ1](01-gd1-vtv8online-v1/README.md) |
-| GĐ2 | Media Platform | [GĐ2](02-gd2-media-platform/README.md) |
-| GĐ3 | Content Commerce | [GĐ3](03-gd3-content-commerce/README.md) |
-| GĐ4 | Digital Ecosystem | [GĐ4](04-gd4-digital-ecosystem/README.md) |
+| Giai đoạn | Tên | Danh mục | Trạng thái |
+|---|---|---|---|
+| GĐ0 | Khảo sát, BA, thiết kế | [8 hạng mục GĐ0 đã chốt](00-gd0-khao-sat-thiet-ke/README.md) | Danh mục đã chốt; chi tiết DRAFT |
+| GĐ1 | VTV8Online V1 | [GĐ1](01-gd1-vtv8online-v1/README.md) | DRAFT |
+| GĐ2 | Media Platform | [GĐ2](02-gd2-media-platform/README.md) | DRAFT |
+| GĐ3 | Content Commerce | [GĐ3](03-gd3-content-commerce/README.md) | DRAFT |
+| GĐ4 | Digital Ecosystem | [GĐ4](04-gd4-digital-ecosystem/README.md) | DRAFT |
 
 ## Tài liệu dùng chung
 - [Nguồn, cơ sở và giả định](nguon-va-gia-dinh.md)
 - [Nguyên tắc kiến trúc xuyên giai đoạn](kien-truc-chung/README.md)
 - [Quyết định & vấn đề chờ chốt](quyet-dinh/README.md)
 - [Khung lập báo giá](../bao-gia/README.md)
+- [Quy trình ước tính giờ code FE/BE](../bao-gia/PHUONG-PHAP-UOC-TINH.md)
 - [Hướng dẫn đóng góp](../CONTRIBUTING.md)
 
-## Luồng phân tích đến báo giá
-```
-Tài liệu đề xuất VTV8 → Danh mục giai đoạn → Module → Tính năng / Use case
-  → Luồng nghiệp vụ & quy tắc → UI / API / DB / Tích hợp / NFR
-  → Điều kiện nghiệm thu → Effort → Dự toán theo module / giai đoạn
-```
+## Quy trình đã thống nhất
+1. Chọn **giai đoạn**, rà soát và chốt **danh sách module/hạng mục**.
+2. Phân tích sâu **từng module**, thảo luận và chốt **các tính năng/công việc**.
+3. Chỉ **sau khi chốt tính năng** mới ước tính giờ code **FE và BE**, lấy năng suất **một Middle Developer** làm chuẩn.
+4. BA, Design và QA được Excel tính từ giờ coding theo sheet `Config`; Contract/Blockchain không áp dụng.
+5. Riêng GĐ0 là dịch vụ khảo sát/thiết kế: dùng đầu ra và khối lượng tư vấn làm căn cứ dự toán, không suy luận chi phí từ FE/BE bằng 0.
 
-## Thứ tự ưu tiên
-1. GĐ0: xác minh hiện trạng, vai trò, quy trình và các quyết định hạ tầng.
-2. GĐ1: phân tích sâu các module có yêu cầu trực tiếp từ tài liệu (CMS, Content, DAM, Migration, Video/Live).
-3. GĐ2–GĐ4: khung chức năng, các kịch bản tích hợp/mô hình thương mại, sau đó chi tiết hóa theo quyết định.
+## Thứ tự
+- Hiện tại: GĐ0 đã chốt 8 hạng mục cấp module, bước tiếp theo là phân tích G0-01.
+- Sau đó: lần lượt chốt module, đặc tả tính năng và ước tính GĐ1, GĐ2, GĐ3, GĐ4.
 
-**Chú ý:** Các giai đoạn trong nguồn có thời lượng dự kiến, nhưng chưa chốt quan hệ tuần tự/song song và chưa xác nhận ngân sách.
+**Chú ý:** Thời lượng trong tài liệu nguồn là dự kiến. Chưa chốt đơn giá, thời hạn, khối lượng hay ngân sách thực hiện.
