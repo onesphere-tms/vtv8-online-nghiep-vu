@@ -34,3 +34,8 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 3. Chốt tiêu chí nghiệm thu, bảo hành, SLA, chuyển giao.
 4. Tổng hợp rủi ro, phụ thuộc, dự phòng thay đổi.
 5. Xác nhận đơn giá nhân sự, thuế, đơn vị tiền tệ, thời hạn hiệu lực.
+
+## Mẫu Excel do người dùng cung cấp
+
+- [Mô tả cấu trúc và các điểm cần kiểm tra trước khi báo giá](templates/Template-Bao-gia-Du-an-cau-truc.md).
+- Tệp gốc **Template Báo giá Dự án.xlsx** chưa được lưu trên Git do giới hạn tải tệp nhị phân; dùng script ở thư mục `scripts/` để import nguyên bản. Khi lập báo giá, tạo workbook VTV8Online riêng, giữ template làm bản chuẩn.
