@@ -12,4 +12,6 @@
 | G1-H01-W006 | Monitoring/logging ứng dụng và cảnh báo | Healthchecks, app error metrics, log retention, giám sát tài nguyên web/API | DevOps effort + monitoring service |
 | G1-H01-W007 | Hiệu năng ứng dụng và triển khai công khai | Cache/CDN cho nội dung tĩnh, kiểm tra web/API mục tiêu, cấu hình cân bằng tải nếu cần | DevOps effort + CDN app |
 
+**Ranh giới sau QA:** Go-live website/ứng dụng thuộc H02-W003; data cutover thuộc H02-W010; chỉ deploy/backup/cache/monitor ứng dụng ở H01. Không lập hai lần phần công sức chuyển dữ liệu, CDN media hoặc performance test.
+
 **Không trùng G1-08:** ingest, transcoding, ABR, Origin Shield, CDN video, QoE và bài kiểm thử viewer video thuộc nhóm Streaming/provider, không tính lặp ở đây. **Chưa có số giờ, đơn giá và chi phí dịch vụ.**
