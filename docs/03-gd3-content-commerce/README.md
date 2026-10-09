@@ -1,48 +1,36 @@
-# GĐ3 – Content Commerce: đề xuất 10 module, 70 tính năng
+# GĐ3 – VTV8Online Content Commerce (64 tính năng sau QA)
 
-> **09/10/2026 – DRAFT phân tích nghiệp vụ lần đầu, chưa qua vòng QA và chưa chốt với VTV8.** Thời lượng dự kiến trong tài liệu nguồn **6–12 tháng**, chưa có giờ FE/BE. Nguồn chia **ba bước**: Content + Lead → Affiliate/Booking → sàn TMĐT khi quy mô người dùng đủ lớn. Không có cơ sở bắt buộc tự xây sàn ngay trong đợt đầu.
+> **09/10/2026 – đã chuẩn hóa phạm vi nội bộ sau QA**, giữ **10 module + 2 nhóm hỗ trợ H01/H02**, **64 tính năng độc lập (15 CORE, 35 CONDITIONAL, 14 OPTION)**. Danh mục được chọn trong phiên phân tích, **chưa được VTV8 phê duyệt**. Chưa lập dự toán FE/BE hay chứng minh tiến độ 6–12 tháng.
+>
+> **Căn cứ:** [Đề xuất VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md) GĐ3 trang 7 và lộ trình trang 3; B2B từ phần mô hình kinh doanh tổng thể trang 12–13. [Báo cáo QA 70 mã](G3-BAO-CAO-QA-70-TINH-NANG.md) là hồ sơ lịch sử; [bảng mapping 70→64](G3-MAPPING-70-64.md) giải thích từng mã.
+>
+> **Nguồn `T`** là chủ đề/hướng/ví dụ có trong đề xuất, **không có nghĩa chi tiết thao tác đã được VTV8 chốt**. `B` là phần suy luận nghiệp vụ. CORE là đề xuất bước Content + Lead; CONDITIONAL là phụ thuộc đối tác/pháp lý/đầu tư; OPTION là mở rộng chỉ khi được chọn.
 
-## Đề xuất module và phạm vi
+## Cấu trúc 10 module
 
 | Mã | Module | Bước | Tổng | CORE | CONDITIONAL | OPTION |
 |---|---|---|---:|---:|---:|---:|
-| G3-01 | [Liên kết nội dung với sản phẩm và dịch vụ](G3-01-content-to-offer.md) | A | 7 | 5 | 0 | 2 |
-| G3-02 | [Tiếp nhận và quản lý lead](G3-02-lead-management.md) | A | 7 | 7 | 0 | 0 |
-| G3-03 | [Đối tác và danh mục offering](G3-03-partner-offer-directory.md) | A → B/C | 7 | 6 | 1 | 0 |
+| G3-01 | [Liên kết nội dung với sản phẩm/dịch vụ](G3-01-content-to-offer.md) | A | 6 | 4 | 0 | 2 |
+| G3-02 | [Lead và chuyển giao khách hàng](G3-02-lead-management.md) | A | 6 | 6 | 0 | 0 |
+| G3-03 | [Hồ sơ đối tác/offering](G3-03-partner-offer-directory.md) | A / mở rộng B,C | 6 | 5 | 1 | 0 |
 | G3-04 | [Affiliate tracking](G3-04-affiliate-tracking.md) | B1 | 6 | 0 | 6 | 0 |
-| G3-05 | [Booking dịch vụ du lịch](G3-05-travel-booking.md) | B1/B2 | 8 | 0 | 8 | 0 |
-| G3-06 | [Marketplace catalog và seller](G3-06-marketplace-catalog.md) | C | 7 | 0 | 6 | 1 |
-| G3-07 | [Giỏ hàng, đơn hàng, thanh toán](G3-07-cart-order-payment.md) | C | 9 | 0 | 8 | 1 |
-| G3-08 | [Fulfillment và hậu mãi](G3-08-fulfillment-returns-support.md) | C | 7 | 0 | 6 | 1 |
-| G3-09 | [Đối soát và hoa hồng](G3-09-commerce-reconciliation.md) | B/C | 6 | 0 | 5 | 1 |
-| G3-10 | [Gói truyền thông tài trợ B2B](G3-10-sponsored-b2b-packages.md) | B2B OPTION | 6 | 0 | 0 | 6 |
-| **Tổng** | | | **70** | **18** | **40** | **12** |
+| G3-05 | [Kết nối/đặt dịch vụ du lịch](G3-05-travel-booking.md) | B1/B2 | 7 | 0 | 6 | 1 |
+| G3-06 | [Danh mục người bán/SKU](G3-06-marketplace-catalog.md) | C | 7 | 0 | 6 | 1 |
+| G3-07 | [Giỏ hàng/đơn hàng/thanh toán TMĐT](G3-07-cart-order-payment.md) | C | 8 | 0 | 7 | 1 |
+| G3-08 | [Giao hàng/hậu mãi](G3-08-fulfillment-returns-support.md) | C | 6 | 0 | 4 | 2 |
+| G3-09 | [Đối soát hoa hồng/doanh thu](G3-09-commerce-reconciliation.md) | B/C | 6 | 0 | 5 | 1 |
+| G3-10 | [Gói truyền thông/tài trợ B2B](G3-10-sponsored-b2b-packages.md) | B2B tùy chọn | 6 | 0 | 0 | 6 |
+| **Tổng** | | | **64** | **15** | **35** | **14** |
 
-**[Xem danh mục 70 tính năng](G3-DANH-MUC-TINH-NANG.md)**. Mỗi module có actor, luồng nghiệp vụ, FE/BE cần phát triển mới, tiêu chí nghiệm thu, nguồn và phạm vi điều kiện.
+**[Danh mục 64 tính năng GĐ3](G3-DANH-MUC-TINH-NANG.md)** là bản sử dụng hiện tại. Mỗi tài liệu module đã cập nhật actor, nghiệp vụ, FE/BE mới, nghiệm thu riêng và ranh giới sau QA.
 
-## Kết quả QA 70 tính năng (09/10/2026)
+## Tài liệu kèm theo
 
-- **[Báo cáo QA toàn bộ 70 mã](G3-BAO-CAO-QA-70-TINH-NANG.md)** và 10 bảng QA theo module G3-QA-G3-01 đến G3-QA-G3-10.
-- **Đề xuất sau rà soát:** gộp 6 mã, chuyển 2 tính năng sang OPTION, còn **64 tính năng độc lập** gồm **15 CORE, 35 CONDITIONAL, 14 OPTION**.
-- **Chưa áp dụng** thay đổi này vào danh mục 70 tính năng và 10 tài liệu module bên dưới. 70 mã (18 CORE, 40 CONDITIONAL, 12 OPTION) vẫn là bản thiết kế gốc để bảo đảm truy vết. Chưa có phê duyệt từ VTV8.
-
-## Nguyên tắc phân kỳ
-
-- **A – Content + Lead:** làm trước để nội dung dẫn đến nhu cầu tư vấn, có chuyển giao lead/đối tác và thống kê. Không nhận là booking hay mua hàng.
-- **B – Affiliate/Booking:** phụ thuộc hợp đồng hoa hồng, tracking và dữ liệu conversion; chỉ làm booking tại chỗ nếu API/vai trò được chốt, còn lại redirect/link-out.
-- **C – Sàn TMĐT:** phụ thuộc ngưỡng phát triển thực tế, doanh nghiệp bán, thanh toán, giao vận, hoàn tiền, hậu mãi, trách nhiệm pháp lý. Không mặc định làm tất cả trong GĐ3 đầu tiên.
-- **G3-10 – B2B tài trợ:** nguồn nêu mô hình kinh doanh truyền thông rộng hơn, **OPTION** cho GĐ3; không tự đặt B2B là bước thứ tư bắt buộc.
-
-## Tài liệu quản trị phạm vi
-
-- [Điều kiện phát hành theo ba bước](G3-RELEASE-GATES.md).
-- [Thành phần dùng chung và nguyên tắc không trùng GĐ1–GĐ2](G3-THANH-PHAN-DUNG-CHUNG.md).
-- [G3-H01 – DevOps và tích hợp vận hành](G3-H01-ha-tang-tich-hop.md).
-- [G3-H02 – Pháp lý, UAT và chuyển giao](G3-H02-phap-ly-nghiem-thu.md).
+- [Truy vết 70 mã trước QA sang 64 mã hiện hành](G3-MAPPING-70-64.md).
+- [Báo cáo chất lượng và 10 bảng QA của 70 mã ban đầu](G3-BAO-CAO-QA-70-TINH-NANG.md) là tài liệu lịch sử, không phải bảng phạm vi đang áp dụng.
+- [Phân kỳ và điều kiện mở Affiliate/Booking/TMĐT](G3-RELEASE-GATES.md).
+- [Không tính trùng với GĐ1/GĐ2, chủ sở hữu thành phần chung](G3-THANH-PHAN-DUNG-CHUNG.md).
 - [11 kịch bản nghiệm thu xuyên module](G3-TIEU-CHI-NGHIEM-THU.md).
+- [G3-H01 – hạ tầng & tích hợp](G3-H01-ha-tang-tich-hop.md) và [G3-H02 – pháp lý, UAT & bàn giao](G3-H02-phap-ly-nghiem-thu.md).
 
-## Cần xác nhận
-
-Mô hình VTV8 đứng vai trò bên giới thiệu hay người bán; cơ chế chia sẻ dữ liệu lead, hợp đồng đối tác; API booking và điều kiện giá/chỗ; cách xác nhận hoa hồng; ai nhận tiền/thuế/hóa đơn và hỗ trợ hoàn/hủy; điều kiện pháp lý/phạm vi vận hành sàn TMĐT; B2B có thuộc GĐ3 hay nằm riêng. **Không lập giờ FE/BE trong bản này.**
-
-**Căn cứ:** [Đề xuất hợp tác VTV8–IIEL, mục GĐ3 trang 7 và mô hình kinh doanh trang 12–13](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md). Bản phân rã không thay cho yêu cầu nghiệp vụ hay hợp đồng VTV8 phê duyệt.
+**Phạm vi cần hiểu đúng:** CORE chỉ bao phủ bước A (Content + Lead). B1 Affiliate, B2 Booking API và C Marketplace vẫn nằm trong định hướng đề xuất VTV8 nhưng phụ thuộc việc chốt đối tác và mô hình kinh doanh; không tự cộng 35 CONDITIONAL vào cam kết phát triển đợt đầu. B2B là tùy chọn, không được coi là bước nguồn bắt buộc. **Chưa ước tính giờ FE/BE**.
