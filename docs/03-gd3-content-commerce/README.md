@@ -20,6 +20,12 @@
 
 **[Xem danh mục 70 tính năng](G3-DANH-MUC-TINH-NANG.md)**. Mỗi module có actor, luồng nghiệp vụ, FE/BE cần phát triển mới, tiêu chí nghiệm thu, nguồn và phạm vi điều kiện.
 
+## Kết quả QA 70 tính năng (09/10/2026)
+
+- **[Báo cáo QA toàn bộ 70 mã](G3-BAO-CAO-QA-70-TINH-NANG.md)** và 10 bảng QA theo module G3-QA-G3-01 đến G3-QA-G3-10.
+- **Đề xuất sau rà soát:** gộp 6 mã, chuyển 2 tính năng sang OPTION, còn **64 tính năng độc lập** gồm **15 CORE, 35 CONDITIONAL, 14 OPTION**.
+- **Chưa áp dụng** thay đổi này vào danh mục 70 tính năng và 10 tài liệu module bên dưới. 70 mã (18 CORE, 40 CONDITIONAL, 12 OPTION) vẫn là bản thiết kế gốc để bảo đảm truy vết. Chưa có phê duyệt từ VTV8.
+
 ## Nguyên tắc phân kỳ
 
 - **A – Content + Lead:** làm trước để nội dung dẫn đến nhu cầu tư vấn, có chuyển giao lead/đối tác và thống kê. Không nhận là booking hay mua hàng.
