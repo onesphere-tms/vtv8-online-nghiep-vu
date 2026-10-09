@@ -1,11 +1,11 @@
 # Mục lục hồ sơ VTV8Online
 
-**Trạng thái:** Danh sách GĐ0 đã được chốt nội bộ ở cấp 8 module, 33 công việc khảo sát/thiết kế; chưa phê duyệt bởi VTV8, chưa ước tính effort. GĐ1–GĐ4 là danh mục dự thảo.
+**Trạng thái:** GĐ0 đã chốt 8 module/33 công việc, giờ công 320 giờ / 40 MD **DRAFT**. GĐ1 đã chọn cấu trúc 11 module + 2 nhóm hỗ trợ và có bản phân tích **86 tính năng DRAFT (78 CORE, 8 tùy chọn/có điều kiện)**, chưa được VTV8 phê duyệt hoặc ước tính giờ FE/BE. GĐ2–GĐ4 vẫn là đề xuất.
 
 | Giai đoạn | Tên | Danh mục | Trạng thái |
 |---|---|---|---|
 | GĐ0 | Khảo sát, BA, thiết kế | [33 công việc đã chốt](00-gd0-khao-sat-thiet-ke/G0-TONG-HOP-PHAN-TICH-NGHIEP-VU.md) · [Ước tính chi tiết](../bao-gia/DU-TOAN-EFFORT-GD0-DU-THAO.md) | Danh mục chốt nội bộ; effort 320 giờ **DRAFT** |
-| GĐ1 | VTV8Online V1 | [GĐ1](01-gd1-vtv8online-v1/README.md) | DRAFT |
+| GĐ1 | VTV8Online V1 | [11 module + 2 nhóm triển khai](01-gd1-vtv8online-v1/README.md) · [86 tính năng chi tiết](01-gd1-vtv8online-v1/G1-DANH-MUC-TINH-NANG.md) | Cấu trúc được chọn; tính năng **DRAFT**, chưa ước tính |
 | GĐ2 | Media Platform | [GĐ2](02-gd2-media-platform/README.md) | DRAFT |
 | GĐ3 | Content Commerce | [GĐ3](03-gd3-content-commerce/README.md) | DRAFT |
 | GĐ4 | Digital Ecosystem | [GĐ4](04-gd4-digital-ecosystem/README.md) | DRAFT |
@@ -27,6 +27,6 @@
 
 ## Thứ tự
 - Hiện tại: GĐ0 đã chốt nội bộ **8 module và 33 công việc**; [đề xuất ước tính GĐ0 là 320 giờ / 40 MD](../bao-gia/DU-TOAN-EFFORT-GD0-DU-THAO.md), đang chờ rà soát/duyệt effort. Danh mục 81 mục trước đây đã được thay thế.
-- Sau đó: lần lượt chốt module, đặc tả tính năng và ước tính GĐ1, GĐ2, GĐ3, GĐ4.
+- Tiếp theo: rà soát/chốt phạm vi 86 tính năng GĐ1, làm rõ streaming, nhuận bút và migration, rồi mới ước tính FE/BE và phần triển khai đặc thù. Sau GĐ1 tiếp tục GĐ2–GĐ4.
 
 **Chú ý:** Thời lượng trong tài liệu nguồn là dự kiến. Chưa chốt đơn giá, thời hạn, khối lượng hay ngân sách thực hiện.
