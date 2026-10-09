@@ -121,6 +121,8 @@
 - [G2-H02 – Kiểm thử, pháp lý, UAT và chuyển giao](G2-H02-nghiem-thu-phap-ly.md): xác nhận điều kiện giấy phép, subscription/payment UAT, DRM/device compatibility, test analytics/privacy, hiệu năng và rollback. Tránh tính QA cơ bản lần hai.
 - [G2-THANH-PHAN-DUNG-CHUNG.md](G2-THANH-PHAN-DUNG-CHUNG.md): ghi rõ chủ sở hữu chức năng dùng chung và điều kiện kế thừa GĐ1.
 
+**Lưu ý khi chốt CORE:** G2-09 và G2-10 đang chứa các mục CORE về gói/quyền xem, nhưng nếu chưa có phương án thanh toán và DRM/đối tác cần thiết thì **không thể nghiệm thu một luồng mua gói trả phí hoàn chỉnh**. Khi rà soát scope phải chốt cùng nhau các lát cắt: gói → thanh toán → kích hoạt thuê bao → entitlement → phát video, hoặc đưa toàn bộ luồng trả phí sang nhánh có điều kiện. Các nhãn CORE hiện tại chỉ để thảo luận.
+
 ## VI. Các quyết định cần khóa trước khi chốt scope và ước tính
 
 1. **Account & SSO:** người dùng đăng ký bằng gì, nhà cung cấp danh tính nào, xác minh tài khoản, bảo vệ dữ liệu và yêu cầu xử lý xóa dữ liệu.

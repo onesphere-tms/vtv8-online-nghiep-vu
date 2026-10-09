@@ -28,6 +28,8 @@
 - [G2-H02 – Pháp lý, kiểm thử và chuyển giao](G2-H02-nghiem-thu-phap-ly.md).
 - [Nguyên tắc dùng lại GĐ1 và thành phần chung GĐ2](G2-THANH-PHAN-DUNG-CHUNG.md).
 
+**Lưu ý khi chốt CORE:** G2-09 và G2-10 đang chứa các mục CORE về gói/quyền xem, nhưng nếu chưa có phương án thanh toán và DRM/đối tác cần thiết thì **không thể nghiệm thu một luồng mua gói trả phí hoàn chỉnh**. Khi rà soát scope phải chốt cùng nhau các lát cắt: gói → thanh toán → kích hoạt thuê bao → entitlement → phát video, hoặc đưa toàn bộ luồng trả phí sang nhánh có điều kiện. Các nhãn CORE hiện tại chỉ để thảo luận.
+
 ## Cảnh báo phạm vi
 
 - **Bình luận/tương tác:** phải xác minh điều kiện giấy phép trước khi chuyển từ CONDITIONAL vào phát triển.
