@@ -11,3 +11,10 @@
 | G3-H01-W005 | Kết nối vận chuyển/hoàn tiền và dữ liệu merchant | Cấu hình carrier, đối tác hoàn/đảo tiền, bảo vệ PII và logs nếu cần | Chỉ nếu marketplace G3-GATE-C được bật |
 | G3-H01-W006 | Bảo mật giao dịch và sao lưu phục hồi | Secrets, role segregation, incident response, backup và phục hồi state giao dịch | Phần security hạ tầng mới; không tính test nghiệp vụ lặp |
 | G3-H01-W007 | Giám sát hiệu năng, tải và chi phí commerce | Latency/error per partner, queue depth, metrics conversion, cảnh báo | Không gộp với analytics dashboard nội dung G2-11 |
+
+## Phân kỳ sau chuẩn hóa 64 mã
+
+- G3-02-F003 gộp vào G3-02-F001: H01-W001 vận hành audit/retention/rate controls theo kiến trúc chung, không phát triển thêm một API chống spam độc lập.
+- G3-07-F008 gộp vào notification event của G3-07-F004/F007 và G2-07: cấu hình/giám sát hạ tầng gửi chỉ nếu đã chọn kênh trong GĐ2.
+- G3-08-F003 là OPTION: chỉ cấu hình carrier API khi có hợp đồng. Bước C vẫn cần vận hành trạng thái giao hàng cơ bản thủ công tại G3-08-F001.
+- Chỉ hạch toán nâng cấp GĐ3, không cộng lại hạ tầng CMS, DAM, identity, media hoặc payment adapter GĐ1/GĐ2 đã thực hiện.

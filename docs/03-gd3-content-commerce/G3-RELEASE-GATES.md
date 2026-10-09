@@ -7,12 +7,14 @@
 | Bước | Nhóm tính năng | Phần cần đạt | Ranh giới |
 |---|---|---|---|
 | **A – Content + Lead** | G3-01 (CORE), G3-02 (CORE), G3-03 (CORE) | Content → offering đối tác có hồ sơ được duyệt → người dùng đồng ý chia sẻ thông tin → gửi yêu cầu → đối tác tiếp nhận → cập nhật trạng thái/báo cáo | **Không khẳng định có booking hoặc thanh toán**; đây là luồng lead trước giao dịch |
-| **B1 – Referral / Affiliate** | G3-04, phần outbound booking G3-05-F001/F002/F003 và đối soát G3-09 | Link/QR/redirect có attribution theo hợp đồng → đối tác xác nhận conversion → đối soát hoa hồng | VTV8 chưa nhất thiết trực tiếp nhận tiền từ người mua, phụ thuộc mã giới thiệu/API và chứng cứ đối soát |
+| **B1 – Referral / Affiliate** | G3-04, phần outbound booking G3-05-F003 và offering detail G3-01-F003/G3-03-F002; listing G3-05-F001 là OPTION và đối soát G3-09 | Link/QR/redirect có attribution theo hợp đồng → đối tác xác nhận conversion → đối soát hoa hồng | VTV8 chưa nhất thiết trực tiếp nhận tiền từ người mua, phụ thuộc mã giới thiệu/API và chứng cứ đối soát |
 | **B2 – Booking API trực tiếp** | G3-05-F004–F008 nếu được chốt | Giá/tình trạng chỗ → gửi yêu cầu → phản hồi/trạng thái vendor → hỗ trợ hủy/đổi/đối soát | Không thể tự báo có slot/confirmed khi chưa có API hoặc vendor chưa phản hồi; booking money flow cần scope riêng |
 | **C – Sàn TMĐT khi quy mô đủ lớn** | G3-06/07/08 và phần liên quan G3-09 | Sản phẩm/seller hợp lệ → tồn/giá → giỏ → order → thanh toán → thực hiện đơn → đổi trả/hậu mãi → đối soát | **Không mặc định phát triển trong đợt GĐ3 đầu tiên**; chỉ khởi động sau quyết định về quy mô, seller, giao dịch và trách nhiệm |
 | **B2B mở rộng** | G3-10 | Gói truyền thông/tài trợ và quản lý đề xuất/bàn giao | Nguồn có trong phần mô hình kinh doanh chung, chưa bắt buộc trong riêng ba bước GĐ3 |
 
 **Quan trọng:** GĐ3 không mặc định hoàn tất sàn TMĐT chỉ vì nằm trong cùng tiêu đề giai đoạn. Cũng không gọi redirect/lead là booking hay conversion trả hoa hồng khi chưa có xác nhận từ đối tác.
+
+**Ranh giới sau QA 70→64:** G3-05-F002 đã gộp vào G3-01-F003 và G3-03-F002. G3-05-F001 chỉ là trang danh sách booking mở rộng, không chặn bước B1 redirect. G3-08-F003 là carrier API OPTION; trạng thái giao hàng thủ công tối thiểu nằm trong G3-08-F001. Bước A chỉ yêu cầu 15 CORE theo danh mục hiện hành. Xem [mapping](G3-MAPPING-70-64.md).
 
 ## II. Quyết định bắt buộc theo nhóm
 

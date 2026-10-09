@@ -1,6 +1,6 @@
 # GĐ3 – Tiêu chí nghiệm thu tổng thể theo ba bước
 
-> **Đề xuất nghiệp vụ ngày 09/10/2026; chưa được VTV8 xác nhận.** Áp dụng cùng dòng nghiệm thu riêng của mỗi module, không coi đây là chức năng thứ 71.
+> **Đề xuất nghiệp vụ ngày 09/10/2026; chưa được VTV8 xác nhận.** Áp dụng cùng dòng nghiệm thu riêng của mỗi module, không tạo thêm một tính năng độc lập bên ngoài danh mục 64 mã.
 
 ## Kiểm tra dùng chung
 1. Dữ liệu trong CMS/G1/G2 chỉ được tham chiếu khi còn công khai, có quyền và đúng đối tượng; không tự đăng bán dịch vụ/sản phẩm chưa phê duyệt.
@@ -10,6 +10,14 @@
 5. Phân biệt lead / conversion / booking / commerce order / payment / commission, không dùng một số đếm thay cho số còn lại.
 6. Các cổng API/đối tác bị lỗi phải thể hiện trạng thái thật; không khẳng định booking/sale/đã nhận tiền khi chưa có xác nhận.
 7. Bước B/C chỉ nghiệm thu khi các [gate](G3-RELEASE-GATES.md) phù hợp được chốt. `OPTION` không mặc nhiên là bắt buộc.
+
+## Điều kiện sau QA 70→64
+
+- **G3-E2E-01/03:** xác nhận chặn CTA khi partner/offering bị khóa qua G3-03-F006 (nhận mã gộp G3-01-F005).
+- **G3-E2E-02:** gửi lead trùng phải được chặn tại G3-02-F001 (nhận mã gộp G3-02-F003); chỉ chuyển thông tin với consent phù hợp.
+- **G3-E2E-05/06:** trang booking detail chỉ một nguồn G3-01-F003; trang listing riêng G3-05-F001 OPTION; xác nhận giá/chỗ thật thuộc G3-05-F004 và vendor.
+- **G3-E2E-07/08:** đơn gửi event thông báo qua G2-07, bàn giao seller trong G3-08-F001. Carrier API G3-08-F003 OPTION nhưng vận hành cần cập nhật giao thủ công.
+- **Nếu các năng lực GĐ2 còn CONDITIONAL chưa triển khai**, phải ghi rõ bổ sung phụ thuộc, không nghiệm thu GĐ3 dựa trên hệ thống giả định có sẵn.
 
 ## Kịch bản E2E
 

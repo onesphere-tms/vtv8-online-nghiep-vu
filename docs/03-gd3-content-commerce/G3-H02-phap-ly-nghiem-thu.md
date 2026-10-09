@@ -12,3 +12,11 @@
 | G3-H02-W006 | UAT đơn hàng, payment, giao hàng, hoàn tiền | Kịch bản order end-to-end với đối tác, đối soát seller/commission | QA feature tiêu chuẩn theo công thức không cộng hai lần |
 | G3-H02-W007 | Cutover và bàn giao theo bước A/B/C | Hướng dẫn vận hành, người trực hỗ trợ, kịch bản rollback, hỗ trợ đối tác | Bắt buộc lựa chọn bước triển khai thực tế, không triển khai tất cả đồng thời |
 | G3-H02-W008 | Đối soát kết quả thương mại và nghiệm thu nghiệp vụ | Số lead/conversion/booking/order/hoa hồng được chấp thuận và bằng chứng | Tách công việc đối soát thực tế khỏi lập trình G3-09 |
+
+## Nguyên tắc nghiệm thu 64 tính năng
+
+- Bước A gồm **15 CORE**, phải có luồng content → offering đã duyệt → consent → lead idempotent → bàn giao → trạng thái → thống kê.
+- B1 và B2 không được gộp thành một cam kết đặt chỗ: B1 redirect/link-out, B2 chỉ khi có API vendor và trách nhiệm giao dịch rõ.
+- Marketplace C yêu cầu phân định merchant-of-record, nghĩa vụ đổi trả, chuyển giao người bán, nguồn tồn/phí và đối soát tiền trước UAT. Carrier API G3-08-F003 là OPTION.
+- B2B G3-10 là OPTION theo mô hình kinh doanh tổng thể, không được tự mặc định hợp đồng GĐ3 yêu cầu.
+- [11 luồng E2E](G3-TIEU-CHI-NGHIEM-THU.md) sử dụng 64 mã hiện hành; các mã gộp trong [mapping 70→64](G3-MAPPING-70-64.md) không được tạo thêm hạng mục nghiệm thu độc lập hoặc tính lại QA.

@@ -21,3 +21,15 @@
 **Phân biệt 4 đối tượng:** `Lead` = yêu cầu tư vấn; `Conversion` = giao dịch/hoạt động được đối tác báo và chờ xác minh; `Booking` = yêu cầu/chỗ được xác nhận tại nhà cung cấp; `CommerceOrder` = đơn hàng được tạo và xử lý trên sàn VTV8. Các mã ID/ trạng thái và nơi chịu trách nhiệm **không tự đồng nhất**.
 
 [Release gates](G3-RELEASE-GATES.md) · [Danh mục GĐ3](G3-DANH-MUC-TINH-NANG.md).
+
+## Ranh giới đã chuẩn hóa từ 70 xuống 64 tính năng
+
+- **Eligibility:** G3-01-F005 được gộp vào G3-03-F006; G3-01-F002/F003 và G3-02 sử dụng cùng trạng thái partner/offering. Không nhân đôi policy/rights.
+- **Lead validation:** G3-02-F003 gộp vào G3-02-F001; H01-W001 chỉ vận hành bảo mật và bảo vệ dữ liệu, không viết lại BE lead API.
+- **Taxonomy:** G3-03-F005 được gộp vào G3-03-F002 và taxonomy G1-04; không có hệ địa phương mới.
+- **Booking detail:** G3-05-F002 gộp G3-01-F003 và G3-03-F002; giá/slot realtime chỉ ở G3-05-F004 nếu API được xác nhận. Trang listing G3-05-F001 chuyển OPTION.
+- **Order notifications:** G3-07-F008 gộp vào event G3-07-F004/F007 và hệ thống thông báo G2-07. Nếu G2-07 không được triển khai thì phải ghi phụ thuộc, không giả định dùng miễn phí.
+- **Seller dispatch và carrier:** G3-08-F002 gộp vào G3-08-F001; tracking thủ công tối thiểu thuộc F001. API carrier G3-08-F003 chuyển OPTION, không được bắt buộc cho bước C tối thiểu nếu vận hành cho phép.
+- **Thương mại:** G2-09 thanh toán thuê bao khác G3-07 thanh toán đơn hàng. Chỉ dùng lại adapter khi provider và quyền sử dụng phù hợp, không dùng chung domain order/subscription.
+
+[Danh mục 64 tính năng](G3-DANH-MUC-TINH-NANG.md) · [Mapping 70→64](G3-MAPPING-70-64.md).
