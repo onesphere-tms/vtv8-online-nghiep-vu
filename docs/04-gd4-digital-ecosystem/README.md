@@ -40,3 +40,11 @@
 **Nguồn:** [Bản trích xuất đề xuất hợp tác VTV8–IIEL](../../tai-lieu-nguon/De-xuat-hop-tac-VTV8-IIEL-ban-trich-xuat.md), lộ trình GĐ4 trang 3, kiến trúc đa thiết bị trang 8, AI trang 11–12, các mô hình Membership/Content Licensing trang 12–13. Danh sách tính năng là **phương án nghiệp vụ suy luận để thảo luận**, không phải một SRS đã được ký duyệt.
 
 **Bước đề xuất tiếp theo:** kiểm tra chất lượng và phạm vi của 78 mã, gộp tính năng trùng, phân biệt những gì VTV8 thực sự yêu cầu với phần mở rộng; chỉ sau khi chốt gói triển khai mới ước tính FE/BE theo Middle Developer, tách chi phí AI/API/GPU/CDN/DRM/store/DevOps.
+
+## Dự toán FE/BE GĐ4 (DRAFT V0 – 12/10/2026)
+
+- [Dự toán chi tiết 78 feature, BA/Design/QA và kịch bản theo gói](../../bao-gia/DU-TOAN-EFFORT-GD4-FE-BE-DU-THAO.md).
+- [CSV chi tiết 78 tính năng](../../bao-gia/DU-TOAN-EFFORT-GD4-FE-BE.csv) · [CSV tổng theo 9 module](../../bao-gia/TONG-HOP-DU-TOAN-GD4-THEO-GOI.csv).
+- CORE 34 tính năng: **6.160h Coding = 1.400 MD** tổng effort theo công thức; CONDITIONAL 34 tính năng: **6.888h Coding = 1.565,45 MD**; OPTION 10 tính năng: **1.856h Coding = 421,82 MD**.
+- **Toàn bộ 78 tính năng: 14.904h Coding = 3.387,27 MD**. Đây là dự toán sơ bộ khi chưa qua QA và chưa chốt nhà cung cấp/quyền dữ liệu. **CORE chỉ áp dụng nếu module tương ứng được chọn triển khai**, không tự lập một gói CORE bắt buộc.
+- **Chưa gồm** hạ tầng H01, pháp lý/UAT chuyên biệt H02, phí sử dụng AI/API/GPU/DRM/TV/CDN/data, PM và vận hành; không xem số MD là số tháng hoàn thành.
