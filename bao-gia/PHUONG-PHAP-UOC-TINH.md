@@ -51,4 +51,11 @@ Các tỷ trọng đang khớp với file Excel gốc và được coi là **cô
 6. Bóc tách bảng dự toán theo **giai đoạn → module → feature**; cho phép tổng hợp tiền theo giai đoạn mà không đếm trùng effort.
 7. Các công việc đặc thù ghi vào **dòng dự toán riêng** hoặc chi phí vendor/operation và ghi rõ cách tính, không tự pha vào giờ code tính tỷ trọng.
 
-**Trạng thái:** phương pháp đã xác nhận bởi người dùng; chưa có giá trị FE/BE cụ thể hay đơn giá nhân sự chính thức.
+**Trạng thái:** phương pháp đã xác nhận bởi người dùng; giờ FE/BE dự toán nội bộ V2 được cập nhật vào CSV/Markdown ngày 12/10/2026 theo yêu cầu người dùng, chưa phải xác nhận phạm vi/giá chính thức của VTV8. Tỷ trọng và bảng lương/đơn giá trong template giữ nguyên.
+
+## 7. Giờ hiện hành V2 – cập nhật 12/10/2026
+
+- Dùng FE/BE theo [báo cáo V2](RA-SOAT-ESTIMATE-FE-BE-VOI-AI.md), mục 10 và 13, cho đủ 290 tính năng GĐ1–GĐ4. Giả định AI hỗ trợ phân tích/code, đặc tả rõ và component/API/nền dùng chung đã chạy; giờ vẫn gồm review, ghép chạy và developer checks.
+- Tổng coding **4.865h = 1.415 FE + 3.450 BE**; BA **884,55h**, Design **1.326,82h**, QA **1.769,09h**; tổng effort **8.845,45h = 1.105,68 MD** trước PM/công việc độc lập.
+- Các trường suy ra tính trực tiếp từ Coding chính xác rồi làm tròn 2 chữ số; không lấy tổng các dòng đã làm tròn để tính lại.
+- V2 là dự toán nội bộ theo điều kiện; không giảm tính năng/nghiệm thu, không tự xóa QA/BA/PM hoặc nhân một hệ số giảm đồng đều. GĐ0 vẫn có bảng theo vai trò riêng, không đổi trong lần cập nhật này.

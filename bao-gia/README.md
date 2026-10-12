@@ -2,6 +2,20 @@
 
 **Trạng thái:** GĐ0 đã có [đề xuất giờ công chi tiết 320 giờ / 40 MD](DU-TOAN-EFFORT-GD0-DU-THAO.md) cho 33 công việc theo vai trò, **DRAFT ESTIMATE – chưa phê duyệt**. GĐ1–GĐ4 đã có dự toán giờ code DRAFT nhưng chưa có giờ code được VTV8 phê duyệt; không giả định mức lương, hệ số hoặc chi phí vendor khi chưa có dữ liệu.
 
+## Tổng giờ hiện hành GĐ1–GĐ4 — V2
+
+Giữ đủ **290 tính năng**; 1 MD = 8 giờ công. BA/Design/QA theo Config của mẫu; chưa cộng PM và công việc độc lập. Tổng hợp được tính từ FE/BE chính xác, không cộng các giá trị làm tròn.
+
+| Giai đoạn | FE (h) | BE (h) | Coding (h) | Ngày chỉ code | Tổng effort (h) | MD gồm BA/Design/QA |
+|---|---:|---:|---:|---:|---:|---:|
+| GĐ1 | 240 | 615 | 855 | 106,88 | 1.554,55 | 194,32 |
+| GĐ2 | 198 | 577 | 775 | 96,88 | 1.409,09 | 176,14 |
+| GĐ3 | 275 | 871 | 1.146 | 143,25 | 2.083,64 | 260,45 |
+| GĐ4 | 702 | 1.387 | 2.089 | 261,12 | 3.798,18 | 474,77 |
+| **Tổng** | **1.415** | **3.450** | **4.865** | **608,12** | **8.845,45** | **1.105,68** |
+
+[Báo cáo rà soát và giả định V2](RA-SOAT-ESTIMATE-FE-BE-VOI-AI.md). CSV/Markdown dự toán và [file báo giá Excel hiện tại](VTV8Online_Bao_gia_du_an_GD0-GD4_chua_tinh_gio.xlsx) đã được điền giờ V2. Tổng cuối trong Excel còn cộng các dòng NFR/hạ tầng và PM giữ theo mẫu; 4.865h là coding riêng của 290 tính năng.
+
 ## Đơn vị bóc tách
 **Giai đoạn → Module → Tính năng/use case → Công việc → Effort → Chi phí.**
 
@@ -42,43 +56,47 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 - [Chi tiết 33 công việc GĐ0: vai trò, giờ công, MD, giả định và tiến độ](DU-TOAN-EFFORT-GD0-DU-THAO.md).
 - **Tổng cơ sở đề xuất:** 320 giờ = 40 MD. Không áp dụng công thức FE/BE (Coding 55%) cho GĐ0; chưa có đơn giá hay số tiền và chưa điền vào template phần mềm.
 
-## Dự toán phát triển GĐ1 – FE/BE Middle Developer (DRAFT)
+## Dự toán FE/BE GĐ1 – VTV8Online V1 (DRAFT V2, cập nhật 12/10/2026)
 
-- [Bảng **82 tính năng** có giờ FE, BE và căn cứ estimate từng mã](DU-TOAN-EFFORT-GD1-FE-BE-DU-THAO.md).
-- [CSV 82 tính năng có sẵn cột BA/Design/QA/MD để đối chiếu và nhập workbook](DU-TOAN-EFFORT-GD1-FE-BE.csv).
-- **CORE 72 tính năng:** FE **1.616h**, BE **2.600h**, Coding **4.216h**; theo tỷ trọng Coding 55%, tổng effort **7.665,45h = 958,18 MD** (chưa gồm H01/H02/Streaming vendor/migration execution/PM).
-- **10 OPTION/CONDITIONAL:** Coding **572h** (FE **208h**, BE **364h**) tính riêng, không mặc định cộng vào V1 cơ sở.
-- Chỉ là **ước tính nội bộ lần 1**, phụ thuộc vào quy chế nhuận bút, khả năng vendor streaming, khối lượng dữ liệu, phân quyền CMS và phương án kỹ thuật từ GĐ0.
+- [Markdown chi tiết 82 tính năng](DU-TOAN-EFFORT-GD1-FE-BE-DU-THAO.md) · [CSV giờ V2](DU-TOAN-EFFORT-GD1-FE-BE.csv).
+- **72 CORE:** FE 212h + BE 532h = **744h code**, tổng effort **169,09 MD** theo mẫu.
+- **3 CONDITIONAL:** FE 6h + BE 30h = **36h code**, tổng effort **8,18 MD** theo mẫu.
+- **7 OPTION:** FE 22h + BE 53h = **75h code**, tổng effort **17,05 MD** theo mẫu.
+- **Toàn bộ 82 tính năng:** FE **240h** + BE **615h** = **855h code**; tổng effort **1.554,55h = 194,32 MD**. Chưa gồm GĐ0, foundations, H01/H02, hạ tầng/vendor, vận hành và PM.
+- V2 đã tính cách phát triển có AI, component/API/nền dùng chung rõ. Giữ nguyên scope và nghiệm thu; dự toán nội bộ theo điều kiện, chưa đo thực tế hoặc được VTV8 phê duyệt.
 
 ## Mẫu Excel do người dùng cung cấp
 
 - [Mô tả cấu trúc và các điểm cần kiểm tra trước khi báo giá](templates/Template-Bao-gia-Du-an-cau-truc.md).
 - [Tệp gốc **Template Báo giá Dự án.xlsx**](templates/Template%20Báo%20giá%20Dự%20án.xlsx) đã được lưu trên Git. Khi lập báo giá, tạo workbook VTV8Online riêng, giữ template gốc làm bản chuẩn.
 
-## Dự toán FE/BE GĐ2 – Media Platform (DRAFT, 09/10/2026)
+## Dự toán FE/BE GĐ2 – Media Platform (DRAFT V2, cập nhật 12/10/2026)
 
-- [Ước tính chi tiết 66 tính năng FE/BE theo Middle Developer](DU-TOAN-EFFORT-GD2-FE-BE-DU-THAO.md).
-- [CSV 66 dòng để sử dụng trong Excel](DU-TOAN-EFFORT-GD2-FE-BE.csv).
-- **CORE:** FE 748h + BE 1.472h = 2.220h Coding, quy đổi **504,55 MD** với BA/Design/QA.
-- **CONDITIONAL:** FE 688h + BE 1.500h = 2.188h Coding, **497,27 MD**, chỉ chọn theo điều kiện pháp lý/vendor/thương mại.
-- **OPTION:** FE 212h + BE 408h = 620h Coding, **140,91 MD**, tính riêng.
-- **Làm đủ 66 tính năng:** 5.028h Coding = **1.142,73 MD** theo công thức. Chưa gồm G2-H01/H02, phí vendor/CDN/payment/DRM, vận hành kiểm duyệt, bảo mật/hiệu năng chuyên sâu và PM.
+- [Markdown chi tiết 66 tính năng](DU-TOAN-EFFORT-GD2-FE-BE-DU-THAO.md) · [CSV giờ V2](DU-TOAN-EFFORT-GD2-FE-BE.csv).
+- **33 CORE:** FE 85h + BE 223h = **308h code**, tổng effort **70,00 MD** theo mẫu.
+- **24 CONDITIONAL:** FE 88h + BE 280h = **368h code**, tổng effort **83,64 MD** theo mẫu.
+- **9 OPTION:** FE 25h + BE 74h = **99h code**, tổng effort **22,50 MD** theo mẫu.
+- **Toàn bộ 66 tính năng:** FE **198h** + BE **577h** = **775h code**; tổng effort **1.409,09h = 176,14 MD**. Chưa gồm GĐ0, foundations, H01/H02, hạ tầng/vendor, vận hành và PM.
+- V2 đã tính cách phát triển có AI, component/API/nền dùng chung rõ. Giữ nguyên scope và nghiệm thu; dự toán nội bộ theo điều kiện, chưa đo thực tế hoặc được VTV8 phê duyệt.
 
+## Dự toán FE/BE GĐ3 – Content Commerce (DRAFT V2, cập nhật 12/10/2026)
 
-## Dự toán FE/BE GĐ3 – Content Commerce (DRAFT, 09/10/2026)
+- [Markdown chi tiết 64 tính năng](DU-TOAN-EFFORT-GD3-FE-BE-DU-THAO.md) · [CSV giờ V2](DU-TOAN-EFFORT-GD3-FE-BE.csv).
+- [CSV tổng theo gói/module](TONG-HOP-DU-TOAN-GD3-THEO-GOI.csv) được tính lại từ các mã tính năng, không cộng trùng.
+- **15 CORE:** FE 60h + BE 123h = **183h code**, tổng effort **41,59 MD** theo mẫu.
+- **35 CONDITIONAL:** FE 163h + BE 628h = **791h code**, tổng effort **179,77 MD** theo mẫu.
+- **14 OPTION:** FE 52h + BE 120h = **172h code**, tổng effort **39,09 MD** theo mẫu.
+- **Toàn bộ 64 tính năng:** FE **275h** + BE **871h** = **1.146h code**; tổng effort **2.083,64h = 260,45 MD**. Chưa gồm GĐ0, foundations, H01/H02, hạ tầng/vendor, vận hành và PM.
+- V2 đã tính cách phát triển có AI, component/API/nền dùng chung rõ. Giữ nguyên scope và nghiệm thu; dự toán nội bộ theo điều kiện, chưa đo thực tế hoặc được VTV8 phê duyệt.
+- Finance G3-09 chỉ tính một lần khi dùng chung Affiliate/Marketplace; các gói vẫn theo gate và danh mục hiện hành.
 
-- [Ước tính theo từng mã trong danh mục 64 tính năng GĐ3](DU-TOAN-EFFORT-GD3-FE-BE-DU-THAO.md).
-- [CSV chi tiết 64 mã để đối chiếu/import Excel](DU-TOAN-EFFORT-GD3-FE-BE.csv) · [CSV tổng theo gói A/B1/B2/C/B2B](TONG-HOP-DU-TOAN-GD3-THEO-GOI.csv).
-- **15 CORE – Content + Lead:** FE 508h + BE 812h = 1.320h Coding, tổng effort 300 MD.
-- **35 CONDITIONAL:** FE 1.380h + BE 3.288h = 4.668h Coding, tổng effort 1.060,91 MD; trong đó Affiliate/Booking API, commission và marketplace tách gói.
-- **14 OPTION:** FE 476h + BE 844h = 1.320h Coding, tổng effort 300 MD, có B2B.
-- **Đủ 64 mã:** FE 2.364h + BE 4.944h = 7.308h Coding, **1.660,91 MD** sau công thức BA/Design/QA.
-- Đây là ước tính Middle Developer nội bộ lần 1, **không tính hệ số tăng năng suất AI**, chưa được VTV8 chốt. Chưa bao gồm G3-H01/H02, licensing/payment/booking partner, vendor fees, legal, PM và vận hành. Finance G3-09 chỉ tính một lần nếu cả Affiliate và Marketplace được triển khai.
+## Dự toán FE/BE GĐ4 – Digital Ecosystem (DRAFT V2, cập nhật 12/10/2026)
 
-## Dự toán FE/BE GĐ4 – Digital Ecosystem (DRAFT V0, 12/10/2026)
-
-- [Dự toán đầy đủ từng mã trong 78 tính năng](DU-TOAN-EFFORT-GD4-FE-BE-DU-THAO.md) · [CSV 78 mã](DU-TOAN-EFFORT-GD4-FE-BE.csv) · [CSV từng module CORE/đầy đủ](TONG-HOP-DU-TOAN-GD4-THEO-GOI.csv).
-- **34 CORE:** FE 2.192h + BE 3.968h = **6.160h Coding / 1.400 MD** tổng effort. CORE chỉ là cơ sở cho **từng module đã chọn**, không có một package CORE toàn hệ sinh thái.
-- **34 CONDITIONAL:** 6.888h Coding / **1.565,45 MD**. **10 OPTION:** 1.856h Coding / **421,82 MD**.
-- **Toàn bộ 78 mã:** FE 5.536h + BE 9.368h = **14.904h Coding / 3.387,27 MD**. Chưa qua QA để chuẩn hóa 78 mã; chưa có xác nhận VTV8 về provider, OS, volume dữ liệu, compliance, AI model.
-- **Không gồm** G4-H01/H02, licensing, AI API/GPU, dữ liệu/warehouse, video/CDN/DRM, fees của app store và vận hành/PM. Gói Mobile, TV, AI Media/Search/Shorts, Membership, Partner, Data và Licensing được tính riêng.
+- [Markdown chi tiết 78 tính năng](DU-TOAN-EFFORT-GD4-FE-BE-DU-THAO.md) · [CSV giờ V2](DU-TOAN-EFFORT-GD4-FE-BE.csv).
+- [CSV tổng theo gói/module](TONG-HOP-DU-TOAN-GD4-THEO-GOI.csv) được tính lại từ các mã tính năng, không cộng trùng.
+- **34 CORE:** FE 262h + BE 515h = **777h code**, tổng effort **176,59 MD** theo mẫu.
+- **34 CONDITIONAL:** FE 353h + BE 666h = **1.019h code**, tổng effort **231,59 MD** theo mẫu.
+- **10 OPTION:** FE 87h + BE 206h = **293h code**, tổng effort **66,59 MD** theo mẫu.
+- **Toàn bộ 78 tính năng:** FE **702h** + BE **1.387h** = **2.089h code**; tổng effort **3.798,18h = 474,77 MD**. Chưa gồm GĐ0, foundations, H01/H02, hạ tầng/vendor, vận hành và PM.
+- V2 đã tính cách phát triển có AI, component/API/nền dùng chung rõ. Giữ nguyên scope và nghiệm thu; dự toán nội bộ theo điều kiện, chưa đo thực tế hoặc được VTV8 phê duyệt.
+- CORE vẫn là cơ sở cho từng module được chọn; không phải một package bắt buộc của cả hệ sinh thái. Danh mục GĐ4 chưa QA chuẩn hóa.
