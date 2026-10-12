@@ -1,6 +1,6 @@
 # Khung ước tính và báo giá theo giai đoạn
 
-**Trạng thái:** GĐ0 đã có [đề xuất giờ công chi tiết 320 giờ / 40 MD](DU-TOAN-EFFORT-GD0-DU-THAO.md) cho 33 công việc theo vai trò, **DRAFT ESTIMATE – chưa phê duyệt**. GĐ1–GĐ4 chưa có giờ code chốt; không giả định mức lương, hệ số hoặc chi phí vendor khi chưa có dữ liệu.
+**Trạng thái:** GĐ0 đã có [đề xuất giờ công chi tiết 320 giờ / 40 MD](DU-TOAN-EFFORT-GD0-DU-THAO.md) cho 33 công việc theo vai trò, **DRAFT ESTIMATE – chưa phê duyệt**. GĐ1–GĐ4 đã có dự toán giờ code DRAFT nhưng chưa có giờ code được VTV8 phê duyệt; không giả định mức lương, hệ số hoặc chi phí vendor khi chưa có dữ liệu.
 
 ## Đơn vị bóc tách
 **Giai đoạn → Module → Tính năng/use case → Công việc → Effort → Chi phí.**
@@ -74,3 +74,11 @@ Mỗi use case phải có mô tả nghiệp vụ, UI/API/data/tích hợp, ngo�
 - **14 OPTION:** FE 476h + BE 844h = 1.320h Coding, tổng effort 300 MD, có B2B.
 - **Đủ 64 mã:** FE 2.364h + BE 4.944h = 7.308h Coding, **1.660,91 MD** sau công thức BA/Design/QA.
 - Đây là ước tính Middle Developer nội bộ lần 1, **không tính hệ số tăng năng suất AI**, chưa được VTV8 chốt. Chưa bao gồm G3-H01/H02, licensing/payment/booking partner, vendor fees, legal, PM và vận hành. Finance G3-09 chỉ tính một lần nếu cả Affiliate và Marketplace được triển khai.
+
+## Dự toán FE/BE GĐ4 – Digital Ecosystem (DRAFT V0, 12/10/2026)
+
+- [Dự toán đầy đủ từng mã trong 78 tính năng](DU-TOAN-EFFORT-GD4-FE-BE-DU-THAO.md) · [CSV 78 mã](DU-TOAN-EFFORT-GD4-FE-BE.csv) · [CSV từng module CORE/đầy đủ](TONG-HOP-DU-TOAN-GD4-THEO-GOI.csv).
+- **34 CORE:** FE 2.192h + BE 3.968h = **6.160h Coding / 1.400 MD** tổng effort. CORE chỉ là cơ sở cho **từng module đã chọn**, không có một package CORE toàn hệ sinh thái.
+- **34 CONDITIONAL:** 6.888h Coding / **1.565,45 MD**. **10 OPTION:** 1.856h Coding / **421,82 MD**.
+- **Toàn bộ 78 mã:** FE 5.536h + BE 9.368h = **14.904h Coding / 3.387,27 MD**. Chưa qua QA để chuẩn hóa 78 mã; chưa có xác nhận VTV8 về provider, OS, volume dữ liệu, compliance, AI model.
+- **Không gồm** G4-H01/H02, licensing, AI API/GPU, dữ liệu/warehouse, video/CDN/DRM, fees của app store và vận hành/PM. Gói Mobile, TV, AI Media/Search/Shorts, Membership, Partner, Data và Licensing được tính riêng.
